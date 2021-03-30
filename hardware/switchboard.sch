@@ -1,4 +1,44 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3085 2165 1515 1345
+U 605C1303
+F0 "Relays" 50
+F1 "relays.sch" 50
+$EndSheet
+$Sheet
+S 5825 1975 1175 1510
+U 605C149A
+F0 "Connectors" 50
+F1 "connectors.sch" 50
+F2 "P1[1..12]" I L 5825 2105 50 
+F3 "P2[1..12]" I L 5825 2220 50 
+F4 "P3[1..12]" I L 5825 2340 50 
+F5 "P4[1..12]" I L 5825 2455 50 
+F6 "P5[1..12]" I L 5825 2570 50 
+F7 "P6[1..12]" I L 5825 2690 50 
+F8 "P7[1..12]" I L 5825 2820 50 
+F9 "P8[1..12]" I L 5825 2950 50 
+F10 "P9[1..12]" I L 5825 3070 50 
+F11 "P10[1..12]" I L 5825 3190 50 
+F12 "P11[1..12]" I L 5825 3310 50 
+F13 "P12[1..12]" I L 5825 3430 50 
+F14 "AUX_SW_1" I R 7000 2180 50 
+F15 "AUX_SW_2" I R 7000 2310 50 
+F16 "AUX_SW_3" I R 7000 2425 50 
+F17 "AUX_SW_4" I R 7000 2535 50 
+$EndSheet
 $EndSCHEMATC
