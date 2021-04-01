@@ -1,0 +1,322 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 60B43642
+P 6895 2965
+AR Path="/605C149A/60B43642" Ref="J?"  Part="1" 
+AR Path="/60B2977E/60B43642" Ref="J?"  Part="1" 
+F 0 "J?" H 6975 2911 50  0000 L CNN
+F 1 "Conn_01x08" H 6975 2866 50  0001 L CNN
+F 2 "" H 6895 2965 50  0001 C CNN
+F 3 "~" H 6895 2965 50  0001 C CNN
+	1    6895 2965
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60B43648
+P 6520 3535
+AR Path="/605C149A/60B43648" Ref="#PWR?"  Part="1" 
+AR Path="/60B2977E/60B43648" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6520 3285 50  0001 C CNN
+F 1 "GNDREF" H 6525 3362 50  0001 C CNN
+F 2 "" H 6520 3535 50  0001 C CNN
+F 3 "" H 6520 3535 50  0001 C CNN
+	1    6520 3535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6520 3535 6520 3365
+Wire Wire Line
+	6520 2765 6695 2765
+Wire Wire Line
+	6695 2965 6520 2965
+Connection ~ 6520 2965
+Wire Wire Line
+	6520 2965 6520 2765
+Wire Wire Line
+	6695 3165 6520 3165
+Connection ~ 6520 3165
+Wire Wire Line
+	6520 3165 6520 2965
+Wire Wire Line
+	6695 3365 6520 3365
+Connection ~ 6520 3365
+Wire Wire Line
+	6520 3365 6520 3165
+Wire Wire Line
+	6695 2665 6455 2665
+Wire Wire Line
+	6695 2865 6455 2865
+Wire Wire Line
+	6695 3065 6455 3065
+Wire Wire Line
+	6695 3265 6455 3265
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 60B4365D
+P 6930 4540
+AR Path="/605C149A/60B4365D" Ref="J?"  Part="1" 
+AR Path="/60B2977E/60B4365D" Ref="J?"  Part="1" 
+F 0 "J?" H 7010 4486 50  0000 L CNN
+F 1 "Conn_01x08" H 7010 4441 50  0001 L CNN
+F 2 "" H 6930 4540 50  0001 C CNN
+F 3 "~" H 6930 4540 50  0001 C CNN
+	1    6930 4540
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60B43663
+P 6555 5110
+AR Path="/605C149A/60B43663" Ref="#PWR?"  Part="1" 
+AR Path="/60B2977E/60B43663" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6555 4860 50  0001 C CNN
+F 1 "GNDREF" H 6560 4937 50  0001 C CNN
+F 2 "" H 6555 5110 50  0001 C CNN
+F 3 "" H 6555 5110 50  0001 C CNN
+	1    6555 5110
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6555 5110 6555 4940
+Wire Wire Line
+	6555 4340 6730 4340
+Wire Wire Line
+	6730 4540 6555 4540
+Connection ~ 6555 4540
+Wire Wire Line
+	6555 4540 6555 4340
+Wire Wire Line
+	6730 4740 6555 4740
+Connection ~ 6555 4740
+Wire Wire Line
+	6555 4740 6555 4540
+Wire Wire Line
+	6730 4940 6555 4940
+Connection ~ 6555 4940
+Wire Wire Line
+	6555 4940 6555 4740
+Wire Wire Line
+	6730 4240 6490 4240
+Wire Wire Line
+	6730 4440 6490 4440
+Wire Wire Line
+	6730 4640 6490 4640
+Wire Wire Line
+	6730 4840 6490 4840
+Text HLabel 6455 2665 0    50   Input ~ 0
+AUX_SW_1
+Text HLabel 6455 2865 0    50   Input ~ 0
+AUX_SW_2
+Text HLabel 6455 3065 0    50   Input ~ 0
+AUX_SW_3
+Text HLabel 6455 3265 0    50   Input ~ 0
+AUX_SW_4
+$Comp
+L power:+12V #PWR?
+U 1 1 60B4367C
+P 6490 4135
+AR Path="/605C149A/60B4367C" Ref="#PWR?"  Part="1" 
+AR Path="/60B2977E/60B4367C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6490 3985 50  0001 C CNN
+F 1 "+12V" H 6505 4308 50  0000 C CNN
+F 2 "" H 6490 4135 50  0001 C CNN
+F 3 "" H 6490 4135 50  0001 C CNN
+	1    6490 4135
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6490 4135 6490 4240
+Connection ~ 6490 4240
+Wire Wire Line
+	6490 4240 6490 4440
+Connection ~ 6490 4440
+Wire Wire Line
+	6490 4440 6490 4640
+Connection ~ 6490 4640
+Wire Wire Line
+	6490 4640 6490 4840
+Text Notes 6860 3990 0    50   ~ 0
+Always on AUX connections
+Text Notes 7130 3275 0    50   ~ 0
+OSTYK42108030
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60B454C8
+P 3940 1585
+F 0 "J?" H 4020 1531 50  0000 L CNN
+F 1 "Conn_01x02" H 4020 1486 50  0001 L CNN
+F 2 "" H 3940 1585 50  0001 C CNN
+F 3 "~" H 3940 1585 50  0001 C CNN
+	1    3940 1585
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60B46291
+P 3675 1685
+F 0 "#PWR?" H 3675 1435 50  0001 C CNN
+F 1 "GNDREF" H 3680 1512 50  0001 C CNN
+F 2 "" H 3675 1685 50  0001 C CNN
+F 3 "" H 3675 1685 50  0001 C CNN
+	1    3675 1685
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 1685 3740 1685
+Wire Wire Line
+	3740 1585 3675 1585
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60B4A0A4
+P 3940 2300
+F 0 "J?" H 4020 2246 50  0000 L CNN
+F 1 "Conn_01x02" H 4020 2201 50  0001 L CNN
+F 2 "" H 3940 2300 50  0001 C CNN
+F 3 "~" H 3940 2300 50  0001 C CNN
+	1    3940 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60B4A0AA
+P 3675 2400
+F 0 "#PWR?" H 3675 2150 50  0001 C CNN
+F 1 "GNDREF" H 3680 2227 50  0001 C CNN
+F 2 "" H 3675 2400 50  0001 C CNN
+F 3 "" H 3675 2400 50  0001 C CNN
+	1    3675 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 2400 3740 2400
+Wire Wire Line
+	3740 2300 3675 2300
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60B4AB1D
+P 3935 3055
+F 0 "J?" H 4015 3001 50  0000 L CNN
+F 1 "Conn_01x02" H 4015 2956 50  0001 L CNN
+F 2 "" H 3935 3055 50  0001 C CNN
+F 3 "~" H 3935 3055 50  0001 C CNN
+	1    3935 3055
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60B4AB23
+P 3670 3155
+F 0 "#PWR?" H 3670 2905 50  0001 C CNN
+F 1 "GNDREF" H 3675 2982 50  0001 C CNN
+F 2 "" H 3670 3155 50  0001 C CNN
+F 3 "" H 3670 3155 50  0001 C CNN
+	1    3670 3155
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3670 3155 3735 3155
+Wire Wire Line
+	3735 3055 3670 3055
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60B4B62C
+P 3935 3895
+F 0 "J?" H 4015 3841 50  0000 L CNN
+F 1 "Conn_01x02" H 4015 3796 50  0001 L CNN
+F 2 "" H 3935 3895 50  0001 C CNN
+F 3 "~" H 3935 3895 50  0001 C CNN
+	1    3935 3895
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60B4B632
+P 3670 3995
+F 0 "#PWR?" H 3670 3745 50  0001 C CNN
+F 1 "GNDREF" H 3675 3822 50  0001 C CNN
+F 2 "" H 3670 3995 50  0001 C CNN
+F 3 "" H 3670 3995 50  0001 C CNN
+	1    3670 3995
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3670 3995 3735 3995
+Wire Wire Line
+	3735 3895 3670 3895
+$Comp
+L power:+12V #PWR?
+U 1 1 60B4F5A3
+P 3675 1585
+AR Path="/605C149A/60B4F5A3" Ref="#PWR?"  Part="1" 
+AR Path="/60B2977E/60B4F5A3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3675 1435 50  0001 C CNN
+F 1 "+12V" H 3690 1758 50  0000 C CNN
+F 2 "" H 3675 1585 50  0001 C CNN
+F 3 "" H 3675 1585 50  0001 C CNN
+	1    3675 1585
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60B515C1
+P 3675 2300
+AR Path="/605C149A/60B515C1" Ref="#PWR?"  Part="1" 
+AR Path="/60B2977E/60B515C1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3675 2150 50  0001 C CNN
+F 1 "+12V" H 3690 2473 50  0000 C CNN
+F 2 "" H 3675 2300 50  0001 C CNN
+F 3 "" H 3675 2300 50  0001 C CNN
+	1    3675 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60B52355
+P 3670 3055
+AR Path="/605C149A/60B52355" Ref="#PWR?"  Part="1" 
+AR Path="/60B2977E/60B52355" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3670 2905 50  0001 C CNN
+F 1 "+12V" H 3685 3228 50  0000 C CNN
+F 2 "" H 3670 3055 50  0001 C CNN
+F 3 "" H 3670 3055 50  0001 C CNN
+	1    3670 3055
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60B5319F
+P 3670 3895
+AR Path="/605C149A/60B5319F" Ref="#PWR?"  Part="1" 
+AR Path="/60B2977E/60B5319F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3670 3745 50  0001 C CNN
+F 1 "+12V" H 3685 4068 50  0000 C CNN
+F 2 "" H 3670 3895 50  0001 C CNN
+F 3 "" H 3670 3895 50  0001 C CNN
+	1    3670 3895
+	1    0    0    -1  
+$EndComp
+Text Notes 3985 1460 0    50   ~ 0
+Kitchen Fan Power
+Text Notes 4000 2170 0    50   ~ 0
+Shower Fan Power
+Text Notes 3970 2925 0    50   ~ 0
+Diesel Heater Power
+Text Notes 3990 3775 0    50   ~ 0
+Fridge Power
+$EndSCHEMATC

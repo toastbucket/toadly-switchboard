@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -1081,125 +1081,6 @@ F 3 "~" H 4420 5135 50  0001 C CNN
 	1    4420 5135
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J?
-U 1 1 60A000AA
-P 9120 1760
-F 0 "J?" H 9200 1706 50  0000 L CNN
-F 1 "Conn_01x08" H 9200 1661 50  0001 L CNN
-F 2 "" H 9120 1760 50  0001 C CNN
-F 3 "~" H 9120 1760 50  0001 C CNN
-	1    9120 1760
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 60A03FCD
-P 8745 2330
-F 0 "#PWR?" H 8745 2080 50  0001 C CNN
-F 1 "GNDREF" H 8750 2157 50  0001 C CNN
-F 2 "" H 8745 2330 50  0001 C CNN
-F 3 "" H 8745 2330 50  0001 C CNN
-	1    8745 2330
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8745 2330 8745 2160
-Wire Wire Line
-	8745 1560 8920 1560
-Wire Wire Line
-	8920 1760 8745 1760
-Connection ~ 8745 1760
-Wire Wire Line
-	8745 1760 8745 1560
-Wire Wire Line
-	8920 1960 8745 1960
-Connection ~ 8745 1960
-Wire Wire Line
-	8745 1960 8745 1760
-Wire Wire Line
-	8920 2160 8745 2160
-Connection ~ 8745 2160
-Wire Wire Line
-	8745 2160 8745 1960
-Wire Wire Line
-	8920 1460 8680 1460
-Wire Wire Line
-	8920 1660 8680 1660
-Wire Wire Line
-	8920 1860 8680 1860
-Wire Wire Line
-	8920 2060 8680 2060
-$Comp
-L Connector_Generic:Conn_01x08 J?
-U 1 1 60A65CC7
-P 9155 3335
-F 0 "J?" H 9235 3281 50  0000 L CNN
-F 1 "Conn_01x08" H 9235 3236 50  0001 L CNN
-F 2 "" H 9155 3335 50  0001 C CNN
-F 3 "~" H 9155 3335 50  0001 C CNN
-	1    9155 3335
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 60A65CCD
-P 8780 3905
-F 0 "#PWR?" H 8780 3655 50  0001 C CNN
-F 1 "GNDREF" H 8785 3732 50  0001 C CNN
-F 2 "" H 8780 3905 50  0001 C CNN
-F 3 "" H 8780 3905 50  0001 C CNN
-	1    8780 3905
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8780 3905 8780 3735
-Wire Wire Line
-	8780 3135 8955 3135
-Wire Wire Line
-	8955 3335 8780 3335
-Connection ~ 8780 3335
-Wire Wire Line
-	8780 3335 8780 3135
-Wire Wire Line
-	8955 3535 8780 3535
-Connection ~ 8780 3535
-Wire Wire Line
-	8780 3535 8780 3335
-Wire Wire Line
-	8955 3735 8780 3735
-Connection ~ 8780 3735
-Wire Wire Line
-	8780 3735 8780 3535
-Wire Wire Line
-	8955 3035 8715 3035
-Wire Wire Line
-	8955 3235 8715 3235
-Wire Wire Line
-	8955 3435 8715 3435
-Wire Wire Line
-	8955 3635 8715 3635
-Text HLabel 8680 1460 0    50   Input ~ 0
-AUX_SW_1
-Text HLabel 8680 1660 0    50   Input ~ 0
-AUX_SW_2
-Text HLabel 8680 1860 0    50   Input ~ 0
-AUX_SW_3
-Text HLabel 8680 2060 0    50   Input ~ 0
-AUX_SW_4
-$Comp
-L power:+12V #PWR?
-U 1 1 60A7402C
-P 8715 2930
-F 0 "#PWR?" H 8715 2780 50  0001 C CNN
-F 1 "+12V" H 8730 3103 50  0000 C CNN
-F 2 "" H 8715 2930 50  0001 C CNN
-F 3 "" H 8715 2930 50  0001 C CNN
-	1    8715 2930
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8715 2930 8715 3035
 Wire Bus Line
 	1645 1245 1645 2360
 Wire Bus Line
@@ -1224,15 +1105,4 @@ Wire Bus Line
 	5030 6235 5030 7350
 Wire Bus Line
 	5025 4735 5025 5850
-Connection ~ 8715 3035
-Wire Wire Line
-	8715 3035 8715 3235
-Connection ~ 8715 3235
-Wire Wire Line
-	8715 3235 8715 3435
-Connection ~ 8715 3435
-Wire Wire Line
-	8715 3435 8715 3635
-Text Notes 9085 2785 0    50   ~ 0
-Always on AUX connections
 $EndSCHEMATC
