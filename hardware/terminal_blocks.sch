@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -319,4 +319,8 @@ Text Notes 3970 2925 0    50   ~ 0
 Diesel Heater Power
 Text Notes 3990 3775 0    50   ~ 0
 Fridge Power
+Text Notes 4430 2345 0    50   ~ 0
+TODO: move this to compartment light wire
+Text Notes 4525 2485 0    50   ~ 0
+TODO: switch this to AC for future?
 $EndSCHEMATC
