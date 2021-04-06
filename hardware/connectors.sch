@@ -455,4 +455,282 @@ NoConn ~ 4620 5235
 NoConn ~ 4620 5035
 NoConn ~ 4620 4835
 NoConn ~ 4620 4635
+Wire Wire Line
+	9225 4105 9505 4105
+Text HLabel 9505 4105 2    50   Input ~ 0
+COMP_1_SENSE
+Text Label 9285 4105 0    50   ~ 0
+47A
+Wire Wire Line
+	9225 4205 9505 4205
+Text HLabel 9505 4205 2    50   Input ~ 0
+COMP_2_SENSE
+Text Label 9285 4205 0    50   ~ 0
+47B
+Wire Wire Line
+	9225 4305 9505 4305
+Text HLabel 9505 4305 2    50   Input ~ 0
+COMP_3_SENSE
+Text Label 9285 4305 0    50   ~ 0
+47D
+Wire Wire Line
+	9225 4405 9505 4405
+Text HLabel 9505 4405 2    50   Input ~ 0
+COMP_4_SENSE
+Text Label 9285 4405 0    50   ~ 0
+47E
+Wire Wire Line
+	9225 4505 9505 4505
+Text HLabel 9505 4505 2    50   Input ~ 0
+COMP_5_SENSE
+Text Label 9285 4505 0    50   ~ 0
+47G
+Wire Wire Line
+	9225 4605 9505 4605
+Text HLabel 9505 4605 2    50   Input ~ 0
+COMP_6_SENSE
+Text Label 9285 4605 0    50   ~ 0
+47H
+Wire Wire Line
+	9225 4905 9505 4905
+Text HLabel 9505 4905 2    50   Input ~ 0
+REAR_DOOR_SENSE
+Text Label 9285 4905 0    50   ~ 0
+46A
+Wire Wire Line
+	9225 5005 9505 5005
+Text HLabel 9505 5005 2    50   Input ~ 0
+SIDE_DOOR_SENSE
+Text Label 9285 5005 0    50   ~ 0
+46B
+NoConn ~ 9225 4805
+NoConn ~ 9225 4705
+NoConn ~ 9225 5105
+NoConn ~ 9225 5205
+Text Notes 9260 5145 0    50   ~ 0
+REVERSE_NEUTRAL_SWITCH
+Text Notes 4695 6265 0    50   ~ 0
+AC_COMPRESSOR
+Text Notes 4695 6470 0    50   ~ 0
+HEATER_VACUUM_VALVE
+NoConn ~ 4625 6135
+NoConn ~ 4625 6235
+NoConn ~ 4625 6335
+NoConn ~ 4625 6435
+NoConn ~ 4625 6535
+NoConn ~ 4625 6635
+NoConn ~ 4625 6735
+NoConn ~ 4625 6835
+NoConn ~ 4625 6935
+NoConn ~ 4625 7035
+NoConn ~ 4625 7135
+NoConn ~ 4625 7235
+Text Notes 7000 3715 0    50   ~ 0
+BATTERY 12VDC
+Text Notes 6995 3515 0    50   ~ 0
+BATTERY GND
+Text Notes 6990 3065 0    50   ~ 0
+RPM SIGNAL
+Text Notes 6985 2960 0    50   ~ 0
+CURRENT_COIL_D
+Text Notes 6980 2865 0    50   ~ 0
+CURRENT_COIL_C
+Text Notes 6980 2770 0    50   ~ 0
+CURRENT_COIL_B
+Text Notes 6980 2675 0    50   ~ 0
+CURRENT_COIL_A
+NoConn ~ 6945 2630
+NoConn ~ 6945 2730
+NoConn ~ 6945 2830
+NoConn ~ 6945 2930
+NoConn ~ 6945 3030
+NoConn ~ 6945 3130
+NoConn ~ 6945 3230
+NoConn ~ 6945 3330
+NoConn ~ 6945 3430
+NoConn ~ 6945 3530
+NoConn ~ 6945 3630
+NoConn ~ 6945 3730
+NoConn ~ 6950 5230
+NoConn ~ 6950 5130
+NoConn ~ 6950 5030
+NoConn ~ 6950 4930
+NoConn ~ 6950 4830
+NoConn ~ 6950 4730
+NoConn ~ 6950 4630
+NoConn ~ 6950 4530
+NoConn ~ 6950 4430
+NoConn ~ 6950 4330
+NoConn ~ 6950 4230
+NoConn ~ 6950 4130
+Text Notes 7005 5265 0    50   ~ 0
+LPT_GND
+Text Notes 7000 5160 0    50   ~ 0
+LPT_SIG
+Text Notes 7000 5060 0    50   ~ 0
+LPT_12VDC
+Text Notes 7000 4965 0    50   ~ 0
+HPT_GND
+Text Notes 6995 4870 0    50   ~ 0
+HPT_SIG
+Text Notes 6995 4765 0    50   ~ 0
+HPT_12VDC
+Text Notes 6990 4565 0    50   ~ 0
+OAT_SIG
+Text Notes 6990 4465 0    50   ~ 0
+OAT_12VDC
+Text Notes 7000 4365 0    50   ~ 0
+IAT_SIG
+Text Notes 7000 4265 0    50   ~ 0
+IAT_12VDC
+NoConn ~ 9220 2605
+NoConn ~ 9220 2705
+NoConn ~ 9220 2805
+NoConn ~ 9220 2905
+NoConn ~ 9220 3005
+NoConn ~ 9220 3105
+NoConn ~ 9220 3205
+NoConn ~ 9220 3305
+NoConn ~ 9220 3405
+NoConn ~ 9220 3505
+NoConn ~ 9220 3605
+NoConn ~ 9220 3705
+Text Notes 9275 3440 0    50   ~ 0
+HEADLAMP_DIMMER_SW
+Text Notes 9275 3340 0    50   ~ 0
+BATTERY_SWITCH_SENSE
+Text Notes 9275 3235 0    50   ~ 0
+STOP_LIGHT
+Text Notes 9275 3145 0    50   ~ 0
+REVERSE_LIGHT
+Text Notes 9270 3040 0    50   ~ 0
+MARKER_LIGHTS
+Text Notes 9270 2945 0    50   ~ 0
+HORN_SIGNAL
+Text Notes 9270 2745 0    50   ~ 0
+PARK_BRAKE_SENSE
+Text Notes 1305 3925 0    50   ~ 0
+BACKUP_ALARM
+Text Notes 1300 3725 0    50   ~ 0
+MODULE_DISCONNECT
+Text Notes 1305 2920 0    50   ~ 0
+CHIME
+Text Notes 1305 5425 0    50   ~ 0
+HEADLAMP_HI_LF
+Text Notes 1300 5230 0    50   ~ 0
+HEADLAMP_HI_RT
+NoConn ~ 1245 7035
+NoConn ~ 1245 6935
+NoConn ~ 1245 6735
+NoConn ~ 1245 6635
+NoConn ~ 1245 6535
+NoConn ~ 1245 6435
+NoConn ~ 1245 6335
+NoConn ~ 1245 6235
+NoConn ~ 1245 6135
+NoConn ~ 1245 6035
+NoConn ~ 1245 5935
+Text Notes 1305 7075 0    50   ~ 0
+STROBE_PACK_PATTERN
+Text Notes 1310 6670 0    50   ~ 0
+INTERSECTION_RIGHT
+Text Notes 1305 6465 0    50   ~ 0
+INTERSECTION_LEFT
+Text Notes 1300 6260 0    50   ~ 0
+STREET_REAR_FLOOD
+Text Notes 1295 6065 0    50   ~ 0
+STREET_FRONT_FLOOD
+NoConn ~ 2930 2900
+NoConn ~ 2930 3000
+NoConn ~ 2930 3100
+NoConn ~ 2930 3200
+NoConn ~ 2930 3300
+NoConn ~ 2930 3400
+NoConn ~ 2930 3500
+NoConn ~ 2930 3600
+NoConn ~ 2930 3700
+NoConn ~ 2930 3800
+NoConn ~ 2930 3900
+NoConn ~ 2930 4000
+NoConn ~ 2935 4400
+NoConn ~ 2935 4500
+NoConn ~ 2935 4600
+NoConn ~ 2935 4700
+NoConn ~ 2935 4800
+NoConn ~ 2935 4900
+NoConn ~ 2935 5000
+NoConn ~ 2935 5100
+NoConn ~ 2935 5200
+NoConn ~ 2935 5300
+NoConn ~ 2935 5400
+NoConn ~ 2935 5500
+NoConn ~ 2950 5960
+NoConn ~ 2950 6060
+NoConn ~ 2950 6160
+NoConn ~ 2950 6260
+NoConn ~ 2950 6360
+NoConn ~ 2950 6460
+NoConn ~ 2950 6560
+NoConn ~ 2950 6660
+NoConn ~ 2950 6760
+NoConn ~ 2950 6860
+NoConn ~ 2950 6960
+NoConn ~ 2950 7060
+Text Notes 2995 3830 0    50   ~ 0
+FRONT_LIGHT_BAR
+Text Notes 2990 3630 0    50   ~ 0
+FRONT_LIGHT_BAR
+Text Notes 2990 3430 0    50   ~ 0
+FRONT_LIGHT_BAR
+Text Notes 2985 3230 0    50   ~ 0
+FRONT_LIGHT_BAR
+Text Notes 2990 3035 0    50   ~ 0
+FRONT_LIGHT_BAR
+Text Notes 3015 5530 0    50   ~ 0
+REAR_LOW_RED_STREET
+Text Notes 3010 5325 0    50   ~ 0
+REAR_LOW_RED_CURB
+Text Notes 3005 5135 0    50   ~ 0
+REAR_STROBES
+Text Notes 3000 4935 0    50   ~ 0
+GRILLE_STROBES
+Text Notes 2995 4725 0    50   ~ 0
+STREET_FRONT_RED
+Text Notes 2990 4535 0    50   ~ 0
+STREET_REAR_RED
+Text Notes 3045 7090 0    50   ~ 0
+CURB_FRONT_RED
+Text Notes 3035 6885 0    50   ~ 0
+CURB_REAR_RED
+Text Notes 3040 6690 0    50   ~ 0
+PACK_POWER
+Text Notes 3040 6495 0    50   ~ 0
+PACK_POWER
+Text Notes 3025 6290 0    50   ~ 0
+FLT_BAR_CURB_RED
+Text Notes 3025 6085 0    50   ~ 0
+FLT_BAR_STREET_RED
+NoConn ~ 4555 2250
+NoConn ~ 4555 2150
+NoConn ~ 4555 2050
+NoConn ~ 4555 1950
+NoConn ~ 4555 1850
+NoConn ~ 4555 1750
+NoConn ~ 4555 1650
+NoConn ~ 4555 1550
+NoConn ~ 4555 1450
+NoConn ~ 4555 1350
+NoConn ~ 4555 1250
+Text Notes 4495 2495 0    50   ~ 0
+Pin 12 was previously VACUUM
+Text Notes 4650 2180 0    50   ~ 0
+OXYGEN
+Text Notes 4640 1985 0    50   ~ 0
+ROOF_VENT
+Text Notes 4635 1780 0    50   ~ 0
+HVAC_BLOWER
+Text Notes 4635 1580 0    50   ~ 0
+HVAC_BLOWER
+Text Notes 4630 1385 0    50   ~ 0
+HVAC_BLOWER
 $EndSCHEMATC
