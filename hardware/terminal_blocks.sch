@@ -275,9 +275,7 @@ Diesel Heater Power
 Text Notes 3990 3775 0    50   ~ 0
 Fridge Power
 Text Notes 4430 2345 0    50   ~ 0
-TODO: move this to compartment light wire
-Text Notes 4525 2485 0    50   ~ 0
-TODO: switch this to AC for future?
+TODO: move this to compartment light wire. Replace with\n            toilet power w/5A fuse?
 Text Notes 7155 4575 0    50   ~ 0
 TODO: add fuses
 $Comp
@@ -429,4 +427,6 @@ F 3 "~" H 3525 1585 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3740 1585 3675 1585
+Text Notes 4225 1675 0    50   ~ 0
+OSTYK42102030
 $EndSCHEMATC
