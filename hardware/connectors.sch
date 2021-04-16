@@ -18,8 +18,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 6060FD51
 P 1040 3290
 AR Path="/6060FD51" Ref="J?"  Part="1" 
-AR Path="/605C149A/6060FD51" Ref="J?"  Part="1" 
-F 0 "J?" H 1148 3971 50  0000 C CNN
+AR Path="/605C149A/6060FD51" Ref="P2"  Part="1" 
+F 0 "P2" H 1148 3971 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 1148 3880 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 1040 3290 50  0001 C CNN
 F 3 "~" H 1040 3290 50  0001 C CNN
@@ -31,8 +31,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 60615EDC
 P 1045 4790
 AR Path="/60615EDC" Ref="J?"  Part="1" 
-AR Path="/605C149A/60615EDC" Ref="J?"  Part="1" 
-F 0 "J?" H 1153 5471 50  0000 C CNN
+AR Path="/605C149A/60615EDC" Ref="P3"  Part="1" 
+F 0 "P3" H 1153 5471 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 1153 5380 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 1045 4790 50  0001 C CNN
 F 3 "~" H 1045 4790 50  0001 C CNN
@@ -44,8 +44,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 60615F08
 P 1045 6435
 AR Path="/60615F08" Ref="J?"  Part="1" 
-AR Path="/605C149A/60615F08" Ref="J?"  Part="1" 
-F 0 "J?" H 1153 7116 50  0000 C CNN
+AR Path="/605C149A/60615F08" Ref="P4"  Part="1" 
+F 0 "P4" H 1153 7116 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 1153 7025 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 1045 6435 50  0001 C CNN
 F 3 "~" H 1045 6435 50  0001 C CNN
@@ -57,8 +57,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 6062FF98
 P 2730 1755
 AR Path="/6062FF98" Ref="J?"  Part="1" 
-AR Path="/605C149A/6062FF98" Ref="J?"  Part="1" 
-F 0 "J?" H 2838 2436 50  0000 C CNN
+AR Path="/605C149A/6062FF98" Ref="P7"  Part="1" 
+F 0 "P7" H 2838 2436 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 2838 2345 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 2730 1755 50  0001 C CNN
 F 3 "~" H 2730 1755 50  0001 C CNN
@@ -70,8 +70,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 6062FFC4
 P 2730 3400
 AR Path="/6062FFC4" Ref="J?"  Part="1" 
-AR Path="/605C149A/6062FFC4" Ref="J?"  Part="1" 
-F 0 "J?" H 2838 4081 50  0000 C CNN
+AR Path="/605C149A/6062FFC4" Ref="P6"  Part="1" 
+F 0 "P6" H 2838 4081 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 2838 3990 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 2730 3400 50  0001 C CNN
 F 3 "~" H 2730 3400 50  0001 C CNN
@@ -83,8 +83,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 6062FFF0
 P 2735 4900
 AR Path="/6062FFF0" Ref="J?"  Part="1" 
-AR Path="/605C149A/6062FFF0" Ref="J?"  Part="1" 
-F 0 "J?" H 2843 5581 50  0000 C CNN
+AR Path="/605C149A/6062FFF0" Ref="P7"  Part="1" 
+F 0 "P7" H 2843 5581 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 2843 5490 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 2735 4900 50  0001 C CNN
 F 3 "~" H 2735 4900 50  0001 C CNN
@@ -96,8 +96,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 6064FE96
 P 2750 6460
 AR Path="/6064FE96" Ref="J?"  Part="1" 
-AR Path="/605C149A/6064FE96" Ref="J?"  Part="1" 
-F 0 "J?" H 2858 7141 50  0000 C CNN
+AR Path="/605C149A/6064FE96" Ref="P8"  Part="1" 
+F 0 "P8" H 2858 7141 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 2858 7050 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 2750 6460 50  0001 C CNN
 F 3 "~" H 2750 6460 50  0001 C CNN
@@ -109,8 +109,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 6064FEC2
 P 4355 1750
 AR Path="/6064FEC2" Ref="J?"  Part="1" 
-AR Path="/605C149A/6064FEC2" Ref="J?"  Part="1" 
-F 0 "J?" H 4463 2431 50  0000 C CNN
+AR Path="/605C149A/6064FEC2" Ref="P9"  Part="1" 
+F 0 "P9" H 4463 2431 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 4463 2340 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 4355 1750 50  0001 C CNN
 F 3 "~" H 4355 1750 50  0001 C CNN
@@ -122,8 +122,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 6064FEEE
 P 4360 3410
 AR Path="/6064FEEE" Ref="J?"  Part="1" 
-AR Path="/605C149A/6064FEEE" Ref="J?"  Part="1" 
-F 0 "J?" H 4468 4091 50  0000 C CNN
+AR Path="/605C149A/6064FEEE" Ref="P10"  Part="1" 
+F 0 "P10" H 4468 4091 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 4468 4000 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 4360 3410 50  0001 C CNN
 F 3 "~" H 4360 3410 50  0001 C CNN
@@ -135,8 +135,8 @@ L Connector:Conn_01x12_Male J?
 U 1 1 60662444
 P 4425 6635
 AR Path="/60662444" Ref="J?"  Part="1" 
-AR Path="/605C149A/60662444" Ref="J?"  Part="1" 
-F 0 "J?" H 4533 7316 50  0000 C CNN
+AR Path="/605C149A/60662444" Ref="P12"  Part="1" 
+F 0 "P12" H 4533 7316 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 4533 7225 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 4425 6635 50  0001 C CNN
 F 3 "~" H 4425 6635 50  0001 C CNN
@@ -148,45 +148,21 @@ L Connector:Conn_01x12_Male J?
 U 1 1 60662418
 P 4420 5135
 AR Path="/60662418" Ref="J?"  Part="1" 
-AR Path="/605C149A/60662418" Ref="J?"  Part="1" 
-F 0 "J?" H 4528 5816 50  0000 C CNN
+AR Path="/605C149A/60662418" Ref="P11"  Part="1" 
+F 0 "P11" H 4528 5816 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 4528 5725 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 4420 5135 50  0001 C CNN
 F 3 "~" H 4420 5135 50  0001 C CNN
 	1    4420 5135
 	1    0    0    -1  
 $EndComp
-Text Notes 635  1675 0    50   ~ 0
-PLUG 1
-Text Notes 655  3315 0    50   ~ 0
-Plug 2
-Text Notes 655  4800 0    50   ~ 0
-Plug 3
-Text Notes 670  6455 0    50   ~ 0
-Plug 4
-Text Notes 2305 1775 0    50   ~ 0
-PLUG 5
-Text Notes 2295 3420 0    50   ~ 0
-PLUG 6
-Text Notes 2305 4915 0    50   ~ 0
-PLUG 7
-Text Notes 2360 6475 0    50   ~ 0
-PLUG 8
-Text Notes 3920 6645 0    50   ~ 0
-PLUG 12
-Text Notes 3830 5150 0    50   ~ 0
-PLUG 11
-Text Notes 3880 3420 0    50   ~ 0
-PLUG 10
-Text Notes 4005 1530 0    50   ~ 0
-PLUG 9
 $Comp
 L Connector:Conn_01x12_Male J?
 U 1 1 606FB357
 P 6750 4630
 AR Path="/606FB357" Ref="J?"  Part="1" 
-AR Path="/605C149A/606FB357" Ref="J?"  Part="1" 
-F 0 "J?" H 6858 5311 50  0000 C CNN
+AR Path="/605C149A/606FB357" Ref="P14"  Part="1" 
+F 0 "P14" H 6858 5311 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 6858 5220 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 6750 4630 50  0001 C CNN
 F 3 "~" H 6750 4630 50  0001 C CNN
@@ -198,25 +174,21 @@ L Connector:Conn_01x12_Male J?
 U 1 1 606FB35D
 P 6745 3130
 AR Path="/606FB35D" Ref="J?"  Part="1" 
-AR Path="/605C149A/606FB35D" Ref="J?"  Part="1" 
-F 0 "J?" H 6853 3811 50  0000 C CNN
+AR Path="/605C149A/606FB35D" Ref="P13"  Part="1" 
+F 0 "P13" H 6853 3811 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 6853 3720 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 6745 3130 50  0001 C CNN
 F 3 "~" H 6745 3130 50  0001 C CNN
 	1    6745 3130
 	1    0    0    -1  
 $EndComp
-Text Notes 6245 4640 0    50   ~ 0
-PLUG 14
-Text Notes 6155 3145 0    50   ~ 0
-PLUG 13
 $Comp
 L Connector:Conn_01x12_Male J?
 U 1 1 606FDCF1
 P 9025 4605
 AR Path="/606FDCF1" Ref="J?"  Part="1" 
-AR Path="/605C149A/606FDCF1" Ref="J?"  Part="1" 
-F 0 "J?" H 9133 5286 50  0000 C CNN
+AR Path="/605C149A/606FDCF1" Ref="P16"  Part="1" 
+F 0 "P16" H 9133 5286 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 9133 5195 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 9025 4605 50  0001 C CNN
 F 3 "~" H 9025 4605 50  0001 C CNN
@@ -228,25 +200,21 @@ L Connector:Conn_01x12_Male J?
 U 1 1 606FDCF7
 P 9020 3105
 AR Path="/606FDCF7" Ref="J?"  Part="1" 
-AR Path="/605C149A/606FDCF7" Ref="J?"  Part="1" 
-F 0 "J?" H 9128 3786 50  0000 C CNN
+AR Path="/605C149A/606FDCF7" Ref="P15"  Part="1" 
+F 0 "P15" H 9128 3786 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 9128 3695 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 9020 3105 50  0001 C CNN
 F 3 "~" H 9020 3105 50  0001 C CNN
 	1    9020 3105
 	1    0    0    -1  
 $EndComp
-Text Notes 8520 4615 0    50   ~ 0
-PLUG 16
-Text Notes 8430 3120 0    50   ~ 0
-PLUG 15
 $Comp
 L Connector:Conn_01x12_Male J?
 U 1 1 607423B0
 P 1010 1660
 AR Path="/607423B0" Ref="J?"  Part="1" 
-AR Path="/605C149A/607423B0" Ref="J?"  Part="1" 
-F 0 "J?" H 1118 2341 50  0000 C CNN
+AR Path="/605C149A/607423B0" Ref="P1"  Part="1" 
+F 0 "P1" H 1118 2341 50  0000 C CNN
 F 1 "Conn_01x12_Male" H 1118 2250 50  0001 C CNN
 F 2 "Connector_Molex:Molex_KK-396_A-41791-0012_1x12_P3.96mm_Vertical" H 1010 1660 50  0001 C CNN
 F 3 "~" H 1010 1660 50  0001 C CNN
