@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -331,14 +331,6 @@ Text HLabel 1525 6835 2    50   Input ~ 0
 BAR_LIGHT
 Wire Wire Line
 	1245 6835 1525 6835
-Wire Wire Line
-	2930 2155 3210 2155
-Text HLabel 3210 2155 2    50   Input ~ 0
-PASS_FRONT_FLOOD
-Wire Wire Line
-	2930 2355 3210 2355
-Text HLabel 3210 2355 2    50   Input ~ 0
-PASS_REAR_FLOOD
 Text Label 2990 2355 0    50   ~ 0
 24B
 Text Label 2990 2155 0    50   ~ 0
@@ -347,12 +339,10 @@ NoConn ~ 2930 2255
 NoConn ~ 2930 2055
 Wire Wire Line
 	2930 1755 3210 1755
-Text HLabel 3210 1755 2    50   Input ~ 0
-REAR_RIGHT_FLOOD
+Text HLabel 3340 1755 2    50   Input ~ 0
+REAR_FLOOD
 Wire Wire Line
 	2930 1955 3210 1955
-Text HLabel 3210 1955 2    50   Input ~ 0
-REAR_LEFT_FLOOD
 Text Label 2990 1955 0    50   ~ 0
 40A
 Text Label 2990 1755 0    50   ~ 0
@@ -399,13 +389,13 @@ Wire Wire Line
 Wire Wire Line
 	4560 3210 4840 3210
 Text HLabel 4840 3210 2    50   Input ~ 0
-REAR_STRIP_LIGHT
+STRIP_LIGHT
 Text Label 4620 3210 0    50   ~ 0
 193
 Wire Wire Line
 	4560 3010 4840 3010
 Text HLabel 4840 3010 2    50   Input ~ 0
-CENTER_STRIP_LIGHT
+STRIP_LIGHT
 Text Label 4620 3010 0    50   ~ 0
 192
 NoConn ~ 4560 3710
@@ -413,40 +403,18 @@ NoConn ~ 4560 3510
 NoConn ~ 4560 3310
 NoConn ~ 4560 3110
 NoConn ~ 4560 2910
-Wire Wire Line
-	4620 5735 4900 5735
-Text HLabel 4900 5735 2    50   Input ~ 0
-FRONT_STRIP_LIGHT
 Text Label 4680 5735 0    50   ~ 0
 191
-Wire Wire Line
-	4620 5535 4900 5535
-Text HLabel 4900 5535 2    50   Input ~ 0
-COMP_1_LIGHT
 Text Label 4680 5535 0    50   ~ 0
 51A
-Wire Wire Line
-	4620 5335 4900 5335
-Text HLabel 4900 5335 2    50   Input ~ 0
-COMP_2_LIGHT
 Text Label 4680 5335 0    50   ~ 0
 51B
-Wire Wire Line
-	4620 5135 4900 5135
-Text HLabel 4900 5135 2    50   Input ~ 0
-COMP_3_LIGHT
 Text Label 4680 5135 0    50   ~ 0
 51D
-Wire Wire Line
-	4620 4935 4900 4935
-Text HLabel 4900 4935 2    50   Input ~ 0
-COMP_4_LIGHT
 Text Label 4680 4935 0    50   ~ 0
 51E
 Wire Wire Line
-	4620 4735 4900 4735
-Text HLabel 4900 4735 2    50   Input ~ 0
-COMP_5_LIGHT
+	4620 4735 5420 4735
 Text Label 4680 4735 0    50   ~ 0
 51G
 NoConn ~ 4620 5635
@@ -455,60 +423,38 @@ NoConn ~ 4620 5235
 NoConn ~ 4620 5035
 NoConn ~ 4620 4835
 NoConn ~ 4620 4635
-Wire Wire Line
-	9225 4105 9505 4105
-Text HLabel 9505 4105 2    50   Input ~ 0
-COMP_1_SENSE
 Text Label 9285 4105 0    50   ~ 0
 47A
 Wire Wire Line
-	9225 4205 9505 4205
-Text HLabel 9505 4205 2    50   Input ~ 0
-COMP_2_SENSE
+	9225 4205 10115 4205
 Text Label 9285 4205 0    50   ~ 0
 47B
 Wire Wire Line
-	9225 4305 9505 4305
-Text HLabel 9505 4305 2    50   Input ~ 0
-COMP_3_SENSE
+	9225 4305 10115 4305
 Text Label 9285 4305 0    50   ~ 0
 47D
 Wire Wire Line
-	9225 4405 9505 4405
-Text HLabel 9505 4405 2    50   Input ~ 0
-COMP_4_SENSE
+	9225 4405 10115 4405
 Text Label 9285 4405 0    50   ~ 0
 47E
 Wire Wire Line
-	9225 4505 9505 4505
-Text HLabel 9505 4505 2    50   Input ~ 0
-COMP_5_SENSE
+	9225 4505 10115 4505
 Text Label 9285 4505 0    50   ~ 0
 47G
 Wire Wire Line
-	9225 4605 9505 4605
-Text HLabel 9505 4605 2    50   Input ~ 0
-COMP_6_SENSE
+	9225 4605 10115 4605
 Text Label 9285 4605 0    50   ~ 0
 47H
-Wire Wire Line
-	9225 4905 9505 4905
-Text HLabel 9505 4905 2    50   Input ~ 0
-REAR_DOOR_SENSE
 Text Label 9285 4905 0    50   ~ 0
 46A
-Wire Wire Line
-	9225 5005 9505 5005
-Text HLabel 9505 5005 2    50   Input ~ 0
-SIDE_DOOR_SENSE
 Text Label 9285 5005 0    50   ~ 0
 46B
 NoConn ~ 9225 4805
 NoConn ~ 9225 4705
 NoConn ~ 9225 5105
 NoConn ~ 9225 5205
-Text Notes 9260 5145 0    50   ~ 0
-REVERSE_NEUTRAL_SWITCH 159
+Text Notes 9270 5225 0    50   ~ 0
+REVERSE_NEUTRAL\nSWITCH 159
 Text Notes 4695 6265 0    50   ~ 0
 AC_COMPRESSOR 9F
 Text Notes 4695 6470 0    50   ~ 0
@@ -729,14 +675,127 @@ Text Notes 4630 1385 0    50   ~ 0
 HVAC_BLOWER 8C
 Text Label 1305 6235 0    50   ~ 0
 22B
-Text HLabel 1525 6235 2    50   Input ~ 0
-DRIVER_REAR_FLOOD
-Wire Wire Line
-	1245 6235 1525 6235
 Text Label 1305 6035 0    50   ~ 0
 22A
-Text HLabel 1525 6035 2    50   Input ~ 0
-DRIVER_FRONT_FLOOD
+Wire Wire Line
+	3210 1955 3210 1755
+Wire Wire Line
+	3210 1755 3340 1755
+Connection ~ 3210 1755
+Wire Wire Line
+	2930 2155 3210 2155
+Text HLabel 3340 2155 2    50   Input ~ 0
+PASS_FLOOD
+Wire Wire Line
+	2930 2355 3210 2355
+Wire Wire Line
+	3210 2355 3210 2155
+Wire Wire Line
+	3210 2155 3340 2155
+Connection ~ 3210 2155
 Wire Wire Line
 	1245 6035 1525 6035
+Text HLabel 1655 6035 2    50   Input ~ 0
+DRIVER_FLOOD
+Wire Wire Line
+	1245 6235 1525 6235
+Wire Wire Line
+	1525 6235 1525 6035
+Wire Wire Line
+	1525 6035 1655 6035
+Connection ~ 1525 6035
+Wire Wire Line
+	9225 4105 10115 4105
+Text Label 9530 4105 0    50   ~ 0
+DOOR_SENSE1
+Text Label 9530 4205 0    50   ~ 0
+DOOR_SENSE2
+Text Label 9530 4305 0    50   ~ 0
+DOOR_SENSE3
+Text Label 9530 4405 0    50   ~ 0
+DOOR_SENSE4
+Text Label 9530 4505 0    50   ~ 0
+DOOR_SENSE5
+Text Label 9530 4605 0    50   ~ 0
+DOOR_SENSE6
+Entry Wire Line
+	10115 4105 10215 4205
+Entry Wire Line
+	10115 4205 10215 4305
+Entry Wire Line
+	10115 4305 10215 4405
+Entry Wire Line
+	10115 4405 10215 4505
+Entry Wire Line
+	10115 4505 10215 4605
+Entry Wire Line
+	10115 4605 10215 4705
+Entry Wire Line
+	10115 5005 10215 5105
+Entry Wire Line
+	10115 4905 10215 5005
+Text Label 9530 5005 0    50   ~ 0
+DOOR_SENSE8
+Text Label 9530 4905 0    50   ~ 0
+DOOR_SENSE7
+Wire Wire Line
+	9225 5005 10115 5005
+Wire Wire Line
+	9225 4905 10115 4905
+Text Notes 10480 4940 0    50   ~ 0
+Rear door
+Text Notes 10485 5030 0    50   ~ 0
+Side door
+Text Notes 10435 4400 0    50   ~ 0
+Compartments
+Wire Bus Line
+	10215 5105 10355 5105
+Text HLabel 10355 5105 2    50   Input ~ 0
+DOOR_SENSE[1..8]
+Wire Wire Line
+	4620 5735 4900 5735
+Text HLabel 4900 5735 2    50   Input ~ 0
+STRIP_LIGHT
+Text Notes 5515 5775 0    50   ~ 0
+Front
+Text Notes 5465 3050 0    50   ~ 0
+Center
+Text Notes 5470 3230 0    50   ~ 0
+Rear
+Text Label 4900 4735 0    50   ~ 0
+COMP_LIGHT5
+Wire Wire Line
+	4620 4935 5420 4935
+Text Label 4900 4935 0    50   ~ 0
+COMP_LIGHT4
+Wire Wire Line
+	4620 5135 5420 5135
+Text Label 4900 5135 0    50   ~ 0
+COMP_LIGHT3
+Wire Wire Line
+	4620 5335 5420 5335
+Text Label 4900 5335 0    50   ~ 0
+COMP_LIGHT2
+Wire Wire Line
+	4620 5535 5420 5535
+Text Label 4900 5535 0    50   ~ 0
+COMP_LIGHT1
+Entry Wire Line
+	5420 5535 5520 5635
+Entry Wire Line
+	5420 5335 5520 5435
+Entry Wire Line
+	5420 5135 5520 5235
+Entry Wire Line
+	5420 4935 5520 5035
+Entry Wire Line
+	5420 4735 5520 4835
+Wire Bus Line
+	5520 5635 5620 5635
+Text HLabel 5620 5635 2    50   Input ~ 0
+COMP_LIGHT[1..5]
+Wire Bus Line
+	5520 4835 5520 5635
+Wire Bus Line
+	10215 4205 10215 5105
 $EndSCHEMATC
