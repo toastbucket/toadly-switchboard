@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -579,10 +579,10 @@ Connection ~ 2665 9850
 Wire Wire Line
 	2665 9850 2715 9850
 Wire Wire Line
-	2715 8575 2715 8515
+	2715 7890 2715 7830
 Wire Wire Line
-	2715 8515 3090 8515
-Text Label 2740 8515 0    50   ~ 0
+	2715 7830 3090 7830
+Text Label 2740 7830 0    50   ~ 0
 3V3_MCU
 Wire Wire Line
 	3215 9075 3570 9075
@@ -646,4 +646,46 @@ Text Label 3175 4865 0    50   ~ 0
 UART3_RX
 Text Notes 2525 4830 0    50   ~ 0
 Serial console
+$Comp
+L Device:R_US R?
+U 1 1 60AFCB5D
+P 2500 8370
+F 0 "R?" V 2295 8370 50  0000 C CNN
+F 1 "DNP" V 2386 8370 50  0000 C CNN
+F 2 "" V 2540 8360 50  0001 C CNN
+F 3 "~" H 2500 8370 50  0001 C CNN
+	1    2500 8370
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60AFE569
+P 2310 8370
+F 0 "#PWR?" H 2310 8120 50  0001 C CNN
+F 1 "GNDREF" H 2315 8197 50  0001 C CNN
+F 2 "" H 2310 8370 50  0001 C CNN
+F 3 "" H 2310 8370 50  0001 C CNN
+	1    2310 8370
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2310 8370 2350 8370
+Wire Wire Line
+	2715 8190 2715 8370
+Wire Wire Line
+	2650 8370 2715 8370
+Connection ~ 2715 8370
+Wire Wire Line
+	2715 8370 2715 8575
+$Comp
+L Device:R_US R?
+U 1 1 60AF25B2
+P 2715 8040
+F 0 "R?" H 2590 7990 50  0000 C CNN
+F 1 "0" H 2600 8080 50  0000 C CNN
+F 2 "" V 2755 8030 50  0001 C CNN
+F 3 "~" H 2715 8040 50  0001 C CNN
+	1    2715 8040
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
