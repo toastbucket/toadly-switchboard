@@ -187,8 +187,6 @@ Wire Wire Line
 Connection ~ 11885 3065
 Wire Wire Line
 	11885 3065 12100 3065
-Text Label 12175 3065 0    50   ~ 0
-3V3_MCU
 $Comp
 L MCU_Microchip_SAMD:ATSAMD21J18A-A U?
 U 1 1 607D6B8A
@@ -219,16 +217,9 @@ Wire Notes Line
 Wire Notes Line
 	11330 5040 11330 4005
 Wire Wire Line
-	4515 2365 4515 2210
-Text Label 4515 2110 1    50   ~ 0
-3V3_MCU
-Wire Wire Line
 	4215 2365 4215 2210
 Wire Wire Line
 	4215 2210 4315 2210
-Connection ~ 4515 2210
-Wire Wire Line
-	4515 2210 4515 1730
 Wire Wire Line
 	4315 2365 4315 2210
 Connection ~ 4315 2210
@@ -335,7 +326,7 @@ Wire Wire Line
 	12385 4490 12385 4455
 Connection ~ 12385 4455
 Wire Wire Line
-	12385 4455 13015 4455
+	12385 4455 12730 4455
 $Comp
 L power:GNDREF #PWR?
 U 1 1 6080F08C
@@ -356,18 +347,6 @@ Wire Wire Line
 Connection ~ 12720 4790
 Wire Wire Line
 	12720 4790 12385 4790
-Wire Wire Line
-	11430 4455 11925 4455
-Text Label 11430 4455 0    50   ~ 0
-3V3_MCU
-Text Label 12575 4455 0    50   ~ 0
-3V3_ANA
-Wire Wire Line
-	4615 2365 4615 2270
-Wire Wire Line
-	4615 2270 5085 2270
-Text Label 4710 2270 0    50   ~ 0
-3V3_ANA
 Text Notes 12305 4195 0    50   ~ 0
 Close to VDDANA/GNDANA
 Wire Wire Line
@@ -453,12 +432,6 @@ Text Label 5360 9145 0    50   ~ 0
 RESET_SENSE
 Wire Wire Line
 	5295 9145 5895 9145
-Wire Wire Line
-	5295 8815 5295 8755
-Wire Wire Line
-	5295 8755 5670 8755
-Text Label 5320 8755 0    50   ~ 0
-3V3_MCU
 $Comp
 L Connector:TestPoint TP?
 U 1 1 6086CA0B
@@ -473,24 +446,24 @@ $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 6086FEEE
-P 5085 2270
-F 0 "TP?" V 5085 2458 50  0000 L CNN
-F 1 "TestPoint" V 5130 2458 50  0001 L CNN
-F 2 "" H 5285 2270 50  0001 C CNN
-F 3 "~" H 5285 2270 50  0001 C CNN
-	1    5085 2270
+P 4670 2270
+F 0 "TP?" V 4670 2458 50  0000 L CNN
+F 1 "TestPoint" V 4715 2458 50  0001 L CNN
+F 2 "" H 4870 2270 50  0001 C CNN
+F 3 "~" H 4870 2270 50  0001 C CNN
+	1    4670 2270
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 6087235A
-P 4515 1730
-F 0 "TP?" H 4573 1802 50  0000 L CNN
-F 1 "TestPoint" V 4560 1918 50  0001 L CNN
-F 2 "" H 4715 1730 50  0001 C CNN
-F 3 "~" H 4715 1730 50  0001 C CNN
-	1    4515 1730
-	1    0    0    -1  
+P 4595 1870
+F 0 "TP?" V 4595 2060 50  0000 L CNN
+F 1 "TestPoint" V 4640 2058 50  0001 L CNN
+F 2 "" H 4795 1870 50  0001 C CNN
+F 3 "~" H 4795 1870 50  0001 C CNN
+	1    4595 1870
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
@@ -579,12 +552,6 @@ Connection ~ 2665 9850
 Wire Wire Line
 	2665 9850 2715 9850
 Wire Wire Line
-	2715 7890 2715 7830
-Wire Wire Line
-	2715 7830 3090 7830
-Text Label 2740 7830 0    50   ~ 0
-3V3_MCU
-Wire Wire Line
 	3215 9075 3570 9075
 Wire Wire Line
 	3215 9175 3570 9175
@@ -604,10 +571,6 @@ Wire Wire Line
 	3615 5665 3280 5665
 Text Notes 2585 2705 0    50   ~ 0
 TODO: Connect crystal
-Wire Wire Line
-	6090 5665 6465 5665
-Text Label 6115 5665 0    50   ~ 0
-3V3_MCU
 $Comp
 L Device:R_US R?
 U 1 1 6095505D
@@ -688,4 +651,115 @@ F 3 "~" H 2715 8040 50  0001 C CNN
 	1    2715 8040
 	-1   0    0    1   
 $EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 6085FCDF
+P 12730 4410
+F 0 "#PWR?" H 12730 4260 50  0001 C CNN
+F 1 "+3.3VA" H 12745 4583 50  0000 C CNN
+F 2 "" H 12730 4410 50  0001 C CNN
+F 3 "" H 12730 4410 50  0001 C CNN
+	1    12730 4410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12730 4455 12730 4410
+Connection ~ 12730 4455
+Wire Wire Line
+	12730 4455 13015 4455
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60866AC7
+P 11585 4415
+F 0 "#PWR?" H 11585 4265 50  0001 C CNN
+F 1 "+3.3V" H 11600 4588 50  0000 C CNN
+F 2 "" H 11585 4415 50  0001 C CNN
+F 3 "" H 11585 4415 50  0001 C CNN
+	1    11585 4415
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11585 4415 11585 4455
+Wire Wire Line
+	11585 4455 11925 4455
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6086C2AA
+P 6210 5600
+F 0 "#PWR?" H 6210 5450 50  0001 C CNN
+F 1 "+3.3V" H 6225 5773 50  0000 C CNN
+F 2 "" H 6210 5600 50  0001 C CNN
+F 3 "" H 6210 5600 50  0001 C CNN
+	1    6210 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6090 5665 6210 5665
+Wire Wire Line
+	6210 5665 6210 5600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6087AE96
+P 4515 1760
+F 0 "#PWR?" H 4515 1610 50  0001 C CNN
+F 1 "+3.3V" H 4530 1933 50  0000 C CNN
+F 2 "" H 4515 1760 50  0001 C CNN
+F 3 "" H 4515 1760 50  0001 C CNN
+	1    4515 1760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4515 2210 4515 2365
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 60898862
+P 4615 2200
+F 0 "#PWR?" H 4615 2050 50  0001 C CNN
+F 1 "+3.3VA" H 4670 2365 50  0000 C CNN
+F 2 "" H 4615 2200 50  0001 C CNN
+F 3 "" H 4615 2200 50  0001 C CNN
+	1    4615 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4615 2200 4615 2270
+Wire Wire Line
+	4670 2270 4615 2270
+Connection ~ 4615 2270
+Wire Wire Line
+	4615 2270 4615 2365
+Wire Wire Line
+	4515 2210 4515 1870
+Connection ~ 4515 2210
+Wire Wire Line
+	4515 1870 4595 1870
+Wire Wire Line
+	4515 1760 4515 1870
+Connection ~ 4515 1870
+$Comp
+L power:+3.3V #PWR?
+U 1 1 608C3B03
+P 5295 8735
+F 0 "#PWR?" H 5295 8585 50  0001 C CNN
+F 1 "+3.3V" H 5310 8908 50  0000 C CNN
+F 2 "" H 5295 8735 50  0001 C CNN
+F 3 "" H 5295 8735 50  0001 C CNN
+	1    5295 8735
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5295 8815 5295 8735
+$Comp
+L power:+3.3V #PWR?
+U 1 1 608CDB53
+P 2715 7835
+F 0 "#PWR?" H 2715 7685 50  0001 C CNN
+F 1 "+3.3V" H 2730 8008 50  0000 C CNN
+F 2 "" H 2715 7835 50  0001 C CNN
+F 3 "" H 2715 7835 50  0001 C CNN
+	1    2715 7835
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2715 7835 2715 7890
 $EndSCHEMATC
