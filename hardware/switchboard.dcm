@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V_house
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP +12V_truck
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
 $CMP DK1A-PS
 D Panasonic Relay, 1 Form A
 $ENDCMP
