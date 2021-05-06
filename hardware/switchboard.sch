@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -51,24 +51,6 @@ F31 "AUX_RLY_3_CTRL" I L 5085 5380 50
 F32 "AUX_RLY_4" I R 6710 5410 50 
 F33 "AUX_RLY_4_CTRL" I L 5085 5475 50 
 $EndSheet
-$Sheet
-S 7830 4840 1055 735 
-U 60B2977E
-F0 "Terminal Blocks" 50
-F1 "terminal_blocks.sch" 50
-F2 "AUX_SW_1" I L 7830 5025 50 
-F3 "AUX_SW_2" I L 7830 5150 50 
-F4 "AUX_SW_3" I L 7830 5280 50 
-F5 "AUX_SW_4" I L 7830 5410 50 
-$EndSheet
-Wire Wire Line
-	6710 5025 7830 5025
-Wire Wire Line
-	6710 5150 7830 5150
-Wire Wire Line
-	6710 5280 7830 5280
-Wire Wire Line
-	6710 5410 7830 5410
 $Sheet
 S 2020 3100 1350 1410
 U 606D525F
