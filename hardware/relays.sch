@@ -100,17 +100,6 @@ Wire Wire Line
 Wire Wire Line
 	3190 2175 2980 2175
 Connection ~ 3190 2175
-$Comp
-L power:+5V #PWR?
-U 1 1 609AFF2D
-P 3025 1930
-F 0 "#PWR?" H 3025 1780 50  0001 C CNN
-F 1 "+5V" H 3040 2103 50  0000 C CNN
-F 2 "" H 3025 1930 50  0001 C CNN
-F 3 "" H 3025 1930 50  0001 C CNN
-	1    3025 1930
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2980 1975 3025 1975
 Wire Wire Line
@@ -208,17 +197,6 @@ Wire Wire Line
 Wire Wire Line
 	3125 3715 2915 3715
 Connection ~ 3125 3715
-$Comp
-L power:+5V #PWR?
-U 1 1 609D37A1
-P 2960 3470
-F 0 "#PWR?" H 2960 3320 50  0001 C CNN
-F 1 "+5V" H 2975 3643 50  0000 C CNN
-F 2 "" H 2960 3470 50  0001 C CNN
-F 3 "" H 2960 3470 50  0001 C CNN
-	1    2960 3470
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2915 3515 2960 3515
 Wire Wire Line
@@ -312,17 +290,6 @@ Wire Wire Line
 Wire Wire Line
 	3120 5060 2910 5060
 Connection ~ 3120 5060
-$Comp
-L power:+5V #PWR?
-U 1 1 609F6D0A
-P 2955 4815
-F 0 "#PWR?" H 2955 4665 50  0001 C CNN
-F 1 "+5V" H 2970 4988 50  0000 C CNN
-F 2 "" H 2955 4815 50  0001 C CNN
-F 3 "" H 2955 4815 50  0001 C CNN
-	1    2955 4815
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2910 4860 2955 4860
 Wire Wire Line
@@ -420,17 +387,6 @@ Wire Wire Line
 Wire Wire Line
 	3055 6600 2845 6600
 Connection ~ 3055 6600
-$Comp
-L power:+5V #PWR?
-U 1 1 609F6D50
-P 2890 6355
-F 0 "#PWR?" H 2890 6205 50  0001 C CNN
-F 1 "+5V" H 2905 6528 50  0000 C CNN
-F 2 "" H 2890 6355 50  0001 C CNN
-F 3 "" H 2890 6355 50  0001 C CNN
-	1    2890 6355
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2845 6400 2890 6400
 Wire Wire Line
@@ -524,17 +480,6 @@ Wire Wire Line
 Wire Wire Line
 	8480 4015 8270 4015
 Connection ~ 8480 4015
-$Comp
-L power:+5V #PWR?
-U 1 1 60A18E0F
-P 8315 3770
-F 0 "#PWR?" H 8315 3620 50  0001 C CNN
-F 1 "+5V" H 8330 3943 50  0000 C CNN
-F 2 "" H 8315 3770 50  0001 C CNN
-F 3 "" H 8315 3770 50  0001 C CNN
-	1    8315 3770
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8270 3815 8315 3815
 Wire Wire Line
@@ -632,17 +577,6 @@ Wire Wire Line
 Wire Wire Line
 	8415 5555 8205 5555
 Connection ~ 8415 5555
-$Comp
-L power:+5V #PWR?
-U 1 1 60A18E55
-P 8250 5310
-F 0 "#PWR?" H 8250 5160 50  0001 C CNN
-F 1 "+5V" H 8265 5483 50  0000 C CNN
-F 2 "" H 8250 5310 50  0001 C CNN
-F 3 "" H 8250 5310 50  0001 C CNN
-	1    8250 5310
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8205 5355 8250 5355
 Wire Wire Line
@@ -876,17 +810,6 @@ Wire Wire Line
 Wire Wire Line
 	14520 2265 14310 2265
 Connection ~ 14520 2265
-$Comp
-L power:+5V #PWR?
-U 1 1 6099640F
-P 14355 2020
-F 0 "#PWR?" H 14355 1870 50  0001 C CNN
-F 1 "+5V" H 14370 2193 50  0000 C CNN
-F 2 "" H 14355 2020 50  0001 C CNN
-F 3 "" H 14355 2020 50  0001 C CNN
-	1    14355 2020
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14310 2065 14355 2065
 Wire Wire Line
@@ -984,17 +907,6 @@ Wire Wire Line
 Wire Wire Line
 	14455 3805 14245 3805
 Connection ~ 14455 3805
-$Comp
-L power:+5V #PWR?
-U 1 1 60996449
-P 14290 3560
-F 0 "#PWR?" H 14290 3410 50  0001 C CNN
-F 1 "+5V" H 14305 3733 50  0000 C CNN
-F 2 "" H 14290 3560 50  0001 C CNN
-F 3 "" H 14290 3560 50  0001 C CNN
-	1    14290 3560
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14245 3605 14290 3605
 Wire Wire Line
@@ -1146,17 +1058,6 @@ Wire Wire Line
 Wire Wire Line
 	14480 5220 14270 5220
 Connection ~ 14480 5220
-$Comp
-L power:+5V #PWR?
-U 1 1 609B36BF
-P 14315 4975
-F 0 "#PWR?" H 14315 4825 50  0001 C CNN
-F 1 "+5V" H 14330 5148 50  0000 C CNN
-F 2 "" H 14315 4975 50  0001 C CNN
-F 3 "" H 14315 4975 50  0001 C CNN
-	1    14315 4975
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14270 5020 14315 5020
 Wire Wire Line
@@ -1280,17 +1181,6 @@ Wire Wire Line
 Wire Wire Line
 	14465 6555 14255 6555
 Connection ~ 14465 6555
-$Comp
-L power:+5V #PWR?
-U 1 1 609BD53A
-P 14300 6310
-F 0 "#PWR?" H 14300 6160 50  0001 C CNN
-F 1 "+5V" H 14315 6483 50  0000 C CNN
-F 2 "" H 14300 6310 50  0001 C CNN
-F 3 "" H 14300 6310 50  0001 C CNN
-	1    14300 6310
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14255 6355 14300 6355
 Wire Wire Line
@@ -1412,17 +1302,6 @@ Wire Wire Line
 Wire Wire Line
 	19705 2240 19495 2240
 Connection ~ 19705 2240
-$Comp
-L power:+5V #PWR?
-U 1 1 60A34479
-P 19540 1995
-F 0 "#PWR?" H 19540 1845 50  0001 C CNN
-F 1 "+5V" H 19555 2168 50  0000 C CNN
-F 2 "" H 19540 1995 50  0001 C CNN
-F 3 "" H 19540 1995 50  0001 C CNN
-	1    19540 1995
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	19495 2040 19540 2040
 Wire Wire Line
@@ -1546,17 +1425,6 @@ Wire Wire Line
 Wire Wire Line
 	19700 3635 19490 3635
 Connection ~ 19700 3635
-$Comp
-L power:+5V #PWR?
-U 1 1 60A73B3F
-P 19535 3390
-F 0 "#PWR?" H 19535 3240 50  0001 C CNN
-F 1 "+5V" H 19550 3563 50  0000 C CNN
-F 2 "" H 19535 3390 50  0001 C CNN
-F 3 "" H 19535 3390 50  0001 C CNN
-	1    19535 3390
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	19490 3435 19535 3435
 Wire Wire Line
@@ -1654,17 +1522,6 @@ Wire Wire Line
 Wire Wire Line
 	19635 5175 19425 5175
 Connection ~ 19635 5175
-$Comp
-L power:+5V #PWR?
-U 1 1 60A73B79
-P 19470 4930
-F 0 "#PWR?" H 19470 4780 50  0001 C CNN
-F 1 "+5V" H 19485 5103 50  0000 C CNN
-F 2 "" H 19470 4930 50  0001 C CNN
-F 3 "" H 19470 4930 50  0001 C CNN
-	1    19470 4930
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	19425 4975 19470 4975
 Wire Wire Line
@@ -1816,17 +1673,6 @@ Wire Wire Line
 Wire Wire Line
 	19660 6590 19450 6590
 Connection ~ 19660 6590
-$Comp
-L power:+5V #PWR?
-U 1 1 60A73BD6
-P 19495 6345
-F 0 "#PWR?" H 19495 6195 50  0001 C CNN
-F 1 "+5V" H 19510 6518 50  0000 C CNN
-F 2 "" H 19495 6345 50  0001 C CNN
-F 3 "" H 19495 6345 50  0001 C CNN
-	1    19495 6345
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	19450 6390 19495 6390
 Wire Wire Line
@@ -1968,17 +1814,6 @@ Wire Wire Line
 Wire Wire Line
 	3185 9285 2975 9285
 Connection ~ 3185 9285
-$Comp
-L power:+5V #PWR?
-U 1 1 60D3E5F9
-P 3020 9040
-F 0 "#PWR?" H 3020 8890 50  0001 C CNN
-F 1 "+5V" H 3035 9213 50  0000 C CNN
-F 2 "" H 3020 9040 50  0001 C CNN
-F 3 "" H 3020 9040 50  0001 C CNN
-	1    3020 9040
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2975 9085 3020 9085
 Wire Wire Line
@@ -2102,17 +1937,6 @@ Wire Wire Line
 Wire Wire Line
 	3180 10580 2970 10580
 Connection ~ 3180 10580
-$Comp
-L power:+5V #PWR?
-U 1 1 60D5EA96
-P 3015 10335
-F 0 "#PWR?" H 3015 10185 50  0001 C CNN
-F 1 "+5V" H 3030 10508 50  0000 C CNN
-F 2 "" H 3015 10335 50  0001 C CNN
-F 3 "" H 3015 10335 50  0001 C CNN
-	1    3015 10335
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2970 10380 3015 10380
 Wire Wire Line
@@ -2236,17 +2060,6 @@ Wire Wire Line
 Wire Wire Line
 	3125 11890 2915 11890
 Connection ~ 3125 11890
-$Comp
-L power:+5V #PWR?
-U 1 1 60D79534
-P 2960 11645
-F 0 "#PWR?" H 2960 11495 50  0001 C CNN
-F 1 "+5V" H 2975 11818 50  0000 C CNN
-F 2 "" H 2960 11645 50  0001 C CNN
-F 3 "" H 2960 11645 50  0001 C CNN
-	1    2960 11645
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2915 11690 2960 11690
 Wire Wire Line
@@ -2370,17 +2183,6 @@ Wire Wire Line
 Wire Wire Line
 	8340 10025 8130 10025
 Connection ~ 8340 10025
-$Comp
-L power:+5V #PWR?
-U 1 1 60D93FFE
-P 8175 9780
-F 0 "#PWR?" H 8175 9630 50  0001 C CNN
-F 1 "+5V" H 8190 9953 50  0000 C CNN
-F 2 "" H 8175 9780 50  0001 C CNN
-F 3 "" H 8175 9780 50  0001 C CNN
-	1    8175 9780
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8130 9825 8175 9825
 Wire Wire Line
@@ -2504,17 +2306,6 @@ Wire Wire Line
 Wire Wire Line
 	8340 11415 8130 11415
 Connection ~ 8340 11415
-$Comp
-L power:+5V #PWR?
-U 1 1 60DB1386
-P 8175 11170
-F 0 "#PWR?" H 8175 11020 50  0001 C CNN
-F 1 "+5V" H 8190 11343 50  0000 C CNN
-F 2 "" H 8175 11170 50  0001 C CNN
-F 3 "" H 8175 11170 50  0001 C CNN
-	1    8175 11170
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8130 11215 8175 11215
 Wire Wire Line
@@ -2648,17 +2439,6 @@ Wire Wire Line
 Wire Wire Line
 	14580 9320 14370 9320
 Connection ~ 14580 9320
-$Comp
-L power:+5V #PWR?
-U 1 1 60E826EF
-P 14415 9075
-F 0 "#PWR?" H 14415 8925 50  0001 C CNN
-F 1 "+5V" H 14430 9248 50  0000 C CNN
-F 2 "" H 14415 9075 50  0001 C CNN
-F 3 "" H 14415 9075 50  0001 C CNN
-	1    14415 9075
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14370 9120 14415 9120
 Wire Wire Line
@@ -2782,17 +2562,6 @@ Wire Wire Line
 Wire Wire Line
 	14575 10615 14365 10615
 Connection ~ 14575 10615
-$Comp
-L power:+5V #PWR?
-U 1 1 60E8273A
-P 14410 10370
-F 0 "#PWR?" H 14410 10220 50  0001 C CNN
-F 1 "+5V" H 14425 10543 50  0000 C CNN
-F 2 "" H 14410 10370 50  0001 C CNN
-F 3 "" H 14410 10370 50  0001 C CNN
-	1    14410 10370
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14365 10415 14410 10415
 Wire Wire Line
@@ -2916,17 +2685,6 @@ Wire Wire Line
 Wire Wire Line
 	14520 11925 14310 11925
 Connection ~ 14520 11925
-$Comp
-L power:+5V #PWR?
-U 1 1 60E82785
-P 14355 11680
-F 0 "#PWR?" H 14355 11530 50  0001 C CNN
-F 1 "+5V" H 14370 11853 50  0000 C CNN
-F 2 "" H 14355 11680 50  0001 C CNN
-F 3 "" H 14355 11680 50  0001 C CNN
-	1    14355 11680
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14310 11725 14355 11725
 Wire Wire Line
@@ -3048,17 +2806,6 @@ Wire Wire Line
 Wire Wire Line
 	19735 10520 19525 10520
 Connection ~ 19735 10520
-$Comp
-L power:+5V #PWR?
-U 1 1 60E827D0
-P 19570 10275
-F 0 "#PWR?" H 19570 10125 50  0001 C CNN
-F 1 "+5V" H 19585 10448 50  0000 C CNN
-F 2 "" H 19570 10275 50  0001 C CNN
-F 3 "" H 19570 10275 50  0001 C CNN
-	1    19570 10275
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	19525 10320 19570 10320
 Wire Wire Line
@@ -3182,17 +2929,6 @@ Wire Wire Line
 Wire Wire Line
 	19735 11910 19525 11910
 Connection ~ 19735 11910
-$Comp
-L power:+5V #PWR?
-U 1 1 60E8281B
-P 19570 11665
-F 0 "#PWR?" H 19570 11515 50  0001 C CNN
-F 1 "+5V" H 19585 11838 50  0000 C CNN
-F 2 "" H 19570 11665 50  0001 C CNN
-F 3 "" H 19570 11665 50  0001 C CNN
-	1    19570 11665
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	19525 11710 19570 11710
 Wire Wire Line
@@ -3328,17 +3064,6 @@ Wire Wire Line
 Wire Wire Line
 	3175 15530 2965 15530
 Connection ~ 3175 15530
-$Comp
-L power:+5V #PWR?
-U 1 1 61250C1D
-P 3010 15285
-F 0 "#PWR?" H 3010 15135 50  0001 C CNN
-F 1 "+5V" H 3025 15458 50  0000 C CNN
-F 2 "" H 3010 15285 50  0001 C CNN
-F 3 "" H 3010 15285 50  0001 C CNN
-	1    3010 15285
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2965 15330 3010 15330
 Wire Wire Line
@@ -3462,17 +3187,6 @@ Wire Wire Line
 Wire Wire Line
 	3145 18135 2935 18135
 Connection ~ 3145 18135
-$Comp
-L power:+5V #PWR?
-U 1 1 61250C68
-P 2980 17890
-F 0 "#PWR?" H 2980 17740 50  0001 C CNN
-F 1 "+5V" H 2995 18063 50  0000 C CNN
-F 2 "" H 2980 17890 50  0001 C CNN
-F 3 "" H 2980 17890 50  0001 C CNN
-	1    2980 17890
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2935 17935 2980 17935
 Wire Wire Line
@@ -3598,17 +3312,6 @@ Wire Wire Line
 Wire Wire Line
 	3175 16820 2965 16820
 Connection ~ 3175 16820
-$Comp
-L power:+5V #PWR?
-U 1 1 612FCF19
-P 3010 16575
-F 0 "#PWR?" H 3010 16425 50  0001 C CNN
-F 1 "+5V" H 3025 16748 50  0000 C CNN
-F 2 "" H 3010 16575 50  0001 C CNN
-F 3 "" H 3010 16575 50  0001 C CNN
-	1    3010 16575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2965 16620 3010 16620
 Wire Wire Line
@@ -3730,17 +3433,6 @@ Wire Wire Line
 Wire Wire Line
 	3145 19345 2935 19345
 Connection ~ 3145 19345
-$Comp
-L power:+5V #PWR?
-U 1 1 61403352
-P 2980 19100
-F 0 "#PWR?" H 2980 18950 50  0001 C CNN
-F 1 "+5V" H 2995 19273 50  0000 C CNN
-F 2 "" H 2980 19100 50  0001 C CNN
-F 3 "" H 2980 19100 50  0001 C CNN
-	1    2980 19100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2935 19145 2980 19145
 Wire Wire Line
@@ -3864,17 +3556,6 @@ Wire Wire Line
 Wire Wire Line
 	8325 17540 8115 17540
 Connection ~ 8325 17540
-$Comp
-L power:+5V #PWR?
-U 1 1 6145E136
-P 8160 17295
-F 0 "#PWR?" H 8160 17145 50  0001 C CNN
-F 1 "+5V" H 8175 17468 50  0000 C CNN
-F 2 "" H 8160 17295 50  0001 C CNN
-F 3 "" H 8160 17295 50  0001 C CNN
-	1    8160 17295
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8115 17340 8160 17340
 Wire Wire Line
@@ -3998,17 +3679,6 @@ Wire Wire Line
 Wire Wire Line
 	8325 18750 8115 18750
 Connection ~ 8325 18750
-$Comp
-L power:+5V #PWR?
-U 1 1 6145E181
-P 8160 18505
-F 0 "#PWR?" H 8160 18355 50  0001 C CNN
-F 1 "+5V" H 8175 18678 50  0000 C CNN
-F 2 "" H 8160 18505 50  0001 C CNN
-F 3 "" H 8160 18505 50  0001 C CNN
-	1    8160 18505
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8115 18550 8160 18550
 Wire Wire Line
@@ -4142,17 +3812,6 @@ Wire Wire Line
 Wire Wire Line
 	14055 15075 13845 15075
 Connection ~ 14055 15075
-$Comp
-L power:+5V #PWR?
-U 1 1 619A6E0A
-P 13890 14830
-F 0 "#PWR?" H 13890 14680 50  0001 C CNN
-F 1 "+5V" H 13905 15003 50  0000 C CNN
-F 2 "" H 13890 14830 50  0001 C CNN
-F 3 "" H 13890 14830 50  0001 C CNN
-	1    13890 14830
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13845 14875 13890 14875
 Wire Wire Line
@@ -4276,17 +3935,6 @@ Wire Wire Line
 Wire Wire Line
 	14050 16370 13840 16370
 Connection ~ 14050 16370
-$Comp
-L power:+5V #PWR?
-U 1 1 619A6E55
-P 13885 16125
-F 0 "#PWR?" H 13885 15975 50  0001 C CNN
-F 1 "+5V" H 13900 16298 50  0000 C CNN
-F 2 "" H 13885 16125 50  0001 C CNN
-F 3 "" H 13885 16125 50  0001 C CNN
-	1    13885 16125
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13840 16170 13885 16170
 Wire Wire Line
@@ -4410,17 +4058,6 @@ Wire Wire Line
 Wire Wire Line
 	13995 17680 13785 17680
 Connection ~ 13995 17680
-$Comp
-L power:+5V #PWR?
-U 1 1 619A6EA0
-P 13830 17435
-F 0 "#PWR?" H 13830 17285 50  0001 C CNN
-F 1 "+5V" H 13845 17608 50  0000 C CNN
-F 2 "" H 13830 17435 50  0001 C CNN
-F 3 "" H 13830 17435 50  0001 C CNN
-	1    13830 17435
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13785 17480 13830 17480
 Wire Wire Line
@@ -4544,17 +4181,6 @@ Wire Wire Line
 Wire Wire Line
 	14145 19120 13935 19120
 Connection ~ 14145 19120
-$Comp
-L power:+5V #PWR?
-U 1 1 619A6EEB
-P 13980 18875
-F 0 "#PWR?" H 13980 18725 50  0001 C CNN
-F 1 "+5V" H 13995 19048 50  0000 C CNN
-F 2 "" H 13980 18875 50  0001 C CNN
-F 3 "" H 13980 18875 50  0001 C CNN
-	1    13980 18875
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13935 18920 13980 18920
 Wire Wire Line
@@ -4678,17 +4304,6 @@ Wire Wire Line
 Wire Wire Line
 	14145 20510 13935 20510
 Connection ~ 14145 20510
-$Comp
-L power:+5V #PWR?
-U 1 1 619A6F36
-P 13980 20265
-F 0 "#PWR?" H 13980 20115 50  0001 C CNN
-F 1 "+5V" H 13995 20438 50  0000 C CNN
-F 2 "" H 13980 20265 50  0001 C CNN
-F 3 "" H 13980 20265 50  0001 C CNN
-	1    13980 20265
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13935 20310 13980 20310
 Wire Wire Line
@@ -4812,17 +4427,6 @@ Wire Wire Line
 Wire Wire Line
 	19110 14975 18900 14975
 Connection ~ 19110 14975
-$Comp
-L power:+5V #PWR?
-U 1 1 61B48E17
-P 18945 14730
-F 0 "#PWR?" H 18945 14580 50  0001 C CNN
-F 1 "+5V" H 18960 14903 50  0000 C CNN
-F 2 "" H 18945 14730 50  0001 C CNN
-F 3 "" H 18945 14730 50  0001 C CNN
-	1    18945 14730
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18900 14775 18945 14775
 Wire Wire Line
@@ -4946,17 +4550,6 @@ Wire Wire Line
 Wire Wire Line
 	24600 19140 24390 19140
 Connection ~ 24600 19140
-$Comp
-L power:+5V #PWR?
-U 1 1 61B48E62
-P 24435 18895
-F 0 "#PWR?" H 24435 18745 50  0001 C CNN
-F 1 "+5V" H 24450 19068 50  0000 C CNN
-F 2 "" H 24435 18895 50  0001 C CNN
-F 3 "" H 24435 18895 50  0001 C CNN
-	1    24435 18895
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	24390 18940 24435 18940
 Wire Wire Line
@@ -5080,17 +4673,6 @@ Wire Wire Line
 Wire Wire Line
 	24545 20450 24335 20450
 Connection ~ 24545 20450
-$Comp
-L power:+5V #PWR?
-U 1 1 61B48EAD
-P 24380 20205
-F 0 "#PWR?" H 24380 20055 50  0001 C CNN
-F 1 "+5V" H 24395 20378 50  0000 C CNN
-F 2 "" H 24380 20205 50  0001 C CNN
-F 3 "" H 24380 20205 50  0001 C CNN
-	1    24380 20205
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	24335 20250 24380 20250
 Wire Wire Line
@@ -5214,17 +4796,6 @@ Wire Wire Line
 Wire Wire Line
 	19105 20375 18895 20375
 Connection ~ 19105 20375
-$Comp
-L power:+5V #PWR?
-U 1 1 61B48EF8
-P 18940 20130
-F 0 "#PWR?" H 18940 19980 50  0001 C CNN
-F 1 "+5V" H 18955 20303 50  0000 C CNN
-F 2 "" H 18940 20130 50  0001 C CNN
-F 3 "" H 18940 20130 50  0001 C CNN
-	1    18940 20130
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18895 20175 18940 20175
 Wire Wire Line
@@ -5348,17 +4919,6 @@ Wire Wire Line
 Wire Wire Line
 	24515 15095 24305 15095
 Connection ~ 24515 15095
-$Comp
-L power:+5V #PWR?
-U 1 1 61B48F43
-P 24350 14850
-F 0 "#PWR?" H 24350 14700 50  0001 C CNN
-F 1 "+5V" H 24365 15023 50  0000 C CNN
-F 2 "" H 24350 14850 50  0001 C CNN
-F 3 "" H 24350 14850 50  0001 C CNN
-	1    24350 14850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	24305 14895 24350 14895
 Wire Wire Line
@@ -5482,17 +5042,6 @@ Wire Wire Line
 Wire Wire Line
 	24485 16510 24275 16510
 Connection ~ 24485 16510
-$Comp
-L power:+5V #PWR?
-U 1 1 61BEB96F
-P 24320 16265
-F 0 "#PWR?" H 24320 16115 50  0001 C CNN
-F 1 "+5V" H 24335 16438 50  0000 C CNN
-F 2 "" H 24320 16265 50  0001 C CNN
-F 3 "" H 24320 16265 50  0001 C CNN
-	1    24320 16265
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	24275 16310 24320 16310
 Wire Wire Line
@@ -5616,17 +5165,6 @@ Wire Wire Line
 Wire Wire Line
 	24480 17805 24270 17805
 Connection ~ 24480 17805
-$Comp
-L power:+5V #PWR?
-U 1 1 61BEB9BA
-P 24315 17560
-F 0 "#PWR?" H 24315 17410 50  0001 C CNN
-F 1 "+5V" H 24330 17733 50  0000 C CNN
-F 2 "" H 24315 17560 50  0001 C CNN
-F 3 "" H 24315 17560 50  0001 C CNN
-	1    24315 17560
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	24270 17605 24315 17605
 Wire Wire Line
@@ -5750,17 +5288,6 @@ Wire Wire Line
 Wire Wire Line
 	29220 16365 29010 16365
 Connection ~ 29220 16365
-$Comp
-L power:+5V #PWR?
-U 1 1 61BEBA05
-P 29055 16120
-F 0 "#PWR?" H 29055 15970 50  0001 C CNN
-F 1 "+5V" H 29070 16293 50  0000 C CNN
-F 2 "" H 29055 16120 50  0001 C CNN
-F 3 "" H 29055 16120 50  0001 C CNN
-	1    29055 16120
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	29010 16165 29055 16165
 Wire Wire Line
@@ -5884,17 +5411,6 @@ Wire Wire Line
 Wire Wire Line
 	29250 15105 29040 15105
 Connection ~ 29250 15105
-$Comp
-L power:+5V #PWR?
-U 1 1 61BEBA9B
-P 29085 14860
-F 0 "#PWR?" H 29085 14710 50  0001 C CNN
-F 1 "+5V" H 29100 15033 50  0000 C CNN
-F 2 "" H 29085 14860 50  0001 C CNN
-F 3 "" H 29085 14860 50  0001 C CNN
-	1    29085 14860
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	29040 14905 29085 14905
 Wire Wire Line
@@ -6020,17 +5536,6 @@ Wire Wire Line
 Wire Wire Line
 	29225 17725 29015 17725
 Connection ~ 29225 17725
-$Comp
-L power:+5V #PWR?
-U 1 1 61DC9970
-P 29060 17480
-F 0 "#PWR?" H 29060 17330 50  0001 C CNN
-F 1 "+5V" H 29075 17653 50  0000 C CNN
-F 2 "" H 29060 17480 50  0001 C CNN
-F 3 "" H 29060 17480 50  0001 C CNN
-	1    29060 17480
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	29015 17525 29060 17525
 Wire Wire Line
@@ -6152,17 +5657,6 @@ Wire Wire Line
 Wire Wire Line
 	29220 19035 29010 19035
 Connection ~ 29220 19035
-$Comp
-L power:+5V #PWR?
-U 1 1 61FCBCBF
-P 29055 18790
-F 0 "#PWR?" H 29055 18640 50  0001 C CNN
-F 1 "+5V" H 29070 18963 50  0000 C CNN
-F 2 "" H 29055 18790 50  0001 C CNN
-F 3 "" H 29055 18790 50  0001 C CNN
-	1    29055 18790
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	29010 18835 29055 18835
 Wire Wire Line
@@ -6260,17 +5754,6 @@ Wire Wire Line
 Wire Wire Line
 	29155 20575 28945 20575
 Connection ~ 29155 20575
-$Comp
-L power:+5V #PWR?
-U 1 1 61FCBCF9
-P 28990 20330
-F 0 "#PWR?" H 28990 20180 50  0001 C CNN
-F 1 "+5V" H 29005 20503 50  0000 C CNN
-F 2 "" H 28990 20330 50  0001 C CNN
-F 3 "" H 28990 20330 50  0001 C CNN
-	1    28990 20330
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	28945 20375 28990 20375
 Wire Wire Line
@@ -6436,17 +5919,6 @@ Wire Wire Line
 Wire Wire Line
 	19095 16165 18885 16165
 Connection ~ 19095 16165
-$Comp
-L power:+5V #PWR?
-U 1 1 630635E4
-P 18930 15920
-F 0 "#PWR?" H 18930 15770 50  0001 C CNN
-F 1 "+5V" H 18945 16093 50  0000 C CNN
-F 2 "" H 18930 15920 50  0001 C CNN
-F 3 "" H 18930 15920 50  0001 C CNN
-	1    18930 15920
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18885 15965 18930 15965
 Wire Wire Line
@@ -6570,17 +6042,6 @@ Wire Wire Line
 Wire Wire Line
 	19125 17495 18915 17495
 Connection ~ 19125 17495
-$Comp
-L power:+5V #PWR?
-U 1 1 63501A07
-P 18960 17250
-F 0 "#PWR?" H 18960 17100 50  0001 C CNN
-F 1 "+5V" H 18975 17423 50  0000 C CNN
-F 2 "" H 18960 17250 50  0001 C CNN
-F 3 "" H 18960 17250 50  0001 C CNN
-	1    18960 17250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18915 17295 18960 17295
 Wire Wire Line
@@ -6704,17 +6165,6 @@ Wire Wire Line
 Wire Wire Line
 	19070 18805 18860 18805
 Connection ~ 19070 18805
-$Comp
-L power:+5V #PWR?
-U 1 1 63501A52
-P 18905 18560
-F 0 "#PWR?" H 18905 18410 50  0001 C CNN
-F 1 "+5V" H 18920 18733 50  0000 C CNN
-F 2 "" H 18905 18560 50  0001 C CNN
-F 3 "" H 18905 18560 50  0001 C CNN
-	1    18905 18560
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18860 18605 18905 18605
 Wire Wire Line
@@ -6777,6 +6227,556 @@ F 4 "ST" H 19575 18455 50  0001 C CNN "MFN"
 F 5 "VN750B5TR-E" H 19575 18455 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 19575 18455 50  0001 C CNN "Supplier URL"
 	1    19575 18455
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 60BCE72A
+P 3025 1930
+F 0 "#PWR?" H 3025 1780 50  0001 C CNN
+F 1 "+5V_house" H 3040 2103 50  0000 C CNN
+F 2 "" H 3025 1930 50  0001 C CNN
+F 3 "" H 3025 1930 50  0001 C CNN
+	1    3025 1930
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 60BE7F4D
+P 2960 3470
+F 0 "#PWR?" H 2960 3320 50  0001 C CNN
+F 1 "+5V_house" H 2975 3643 50  0000 C CNN
+F 2 "" H 2960 3470 50  0001 C CNN
+F 3 "" H 2960 3470 50  0001 C CNN
+	1    2960 3470
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 60C860A1
+P 2955 4815
+F 0 "#PWR?" H 2955 4665 50  0001 C CNN
+F 1 "+5V_house" H 2970 4988 50  0000 C CNN
+F 2 "" H 2955 4815 50  0001 C CNN
+F 3 "" H 2955 4815 50  0001 C CNN
+	1    2955 4815
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 60D22556
+P 2890 6355
+F 0 "#PWR?" H 2890 6205 50  0001 C CNN
+F 1 "+5V_house" H 2905 6528 50  0000 C CNN
+F 2 "" H 2890 6355 50  0001 C CNN
+F 3 "" H 2890 6355 50  0001 C CNN
+	1    2890 6355
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 60DC6046
+P 8315 3770
+F 0 "#PWR?" H 8315 3620 50  0001 C CNN
+F 1 "+5V_house" H 8330 3943 50  0000 C CNN
+F 2 "" H 8315 3770 50  0001 C CNN
+F 3 "" H 8315 3770 50  0001 C CNN
+	1    8315 3770
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 60E64855
+P 8250 5310
+F 0 "#PWR?" H 8250 5160 50  0001 C CNN
+F 1 "+5V_house" H 8265 5483 50  0000 C CNN
+F 2 "" H 8250 5310 50  0001 C CNN
+F 3 "" H 8250 5310 50  0001 C CNN
+	1    8250 5310
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 60F081BA
+P 14355 2020
+F 0 "#PWR?" H 14355 1870 50  0001 C CNN
+F 1 "+5V_house" H 14370 2193 50  0000 C CNN
+F 2 "" H 14355 2020 50  0001 C CNN
+F 3 "" H 14355 2020 50  0001 C CNN
+	1    14355 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 60FA7D21
+P 14290 3560
+F 0 "#PWR?" H 14290 3410 50  0001 C CNN
+F 1 "+5V_house" H 14305 3733 50  0000 C CNN
+F 2 "" H 14290 3560 50  0001 C CNN
+F 3 "" H 14290 3560 50  0001 C CNN
+	1    14290 3560
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 61048A3C
+P 14315 4980
+F 0 "#PWR?" H 14315 4830 50  0001 C CNN
+F 1 "+5V_house" H 14330 5153 50  0000 C CNN
+F 2 "" H 14315 4980 50  0001 C CNN
+F 3 "" H 14315 4980 50  0001 C CNN
+	1    14315 4980
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 610E73A5
+P 14300 6310
+F 0 "#PWR?" H 14300 6160 50  0001 C CNN
+F 1 "+5V_house" H 14315 6483 50  0000 C CNN
+F 2 "" H 14300 6310 50  0001 C CNN
+F 3 "" H 14300 6310 50  0001 C CNN
+	1    14300 6310
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 61190983
+P 19540 1995
+F 0 "#PWR?" H 19540 1845 50  0001 C CNN
+F 1 "+5V_house" H 19555 2168 50  0000 C CNN
+F 2 "" H 19540 1995 50  0001 C CNN
+F 3 "" H 19540 1995 50  0001 C CNN
+	1    19540 1995
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 6122E4D3
+P 19535 3390
+F 0 "#PWR?" H 19535 3240 50  0001 C CNN
+F 1 "+5V_house" H 19550 3563 50  0000 C CNN
+F 2 "" H 19535 3390 50  0001 C CNN
+F 3 "" H 19535 3390 50  0001 C CNN
+	1    19535 3390
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 612CB8D9
+P 19470 4930
+F 0 "#PWR?" H 19470 4780 50  0001 C CNN
+F 1 "+5V_house" H 19485 5103 50  0000 C CNN
+F 2 "" H 19470 4930 50  0001 C CNN
+F 3 "" H 19470 4930 50  0001 C CNN
+	1    19470 4930
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 6136A1BF
+P 19495 6345
+F 0 "#PWR?" H 19495 6195 50  0001 C CNN
+F 1 "+5V_house" H 19510 6518 50  0000 C CNN
+F 2 "" H 19495 6345 50  0001 C CNN
+F 3 "" H 19495 6345 50  0001 C CNN
+	1    19495 6345
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 61415B90
+P 14415 9075
+F 0 "#PWR?" H 14415 8925 50  0001 C CNN
+F 1 "+5V_house" H 14430 9248 50  0000 C CNN
+F 2 "" H 14415 9075 50  0001 C CNN
+F 3 "" H 14415 9075 50  0001 C CNN
+	1    14415 9075
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 614B5DD5
+P 14410 10370
+F 0 "#PWR?" H 14410 10220 50  0001 C CNN
+F 1 "+5V_house" H 14425 10543 50  0000 C CNN
+F 2 "" H 14410 10370 50  0001 C CNN
+F 3 "" H 14410 10370 50  0001 C CNN
+	1    14410 10370
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 615553B9
+P 14355 11680
+F 0 "#PWR?" H 14355 11530 50  0001 C CNN
+F 1 "+5V_house" H 14370 11853 50  0000 C CNN
+F 2 "" H 14355 11680 50  0001 C CNN
+F 3 "" H 14355 11680 50  0001 C CNN
+	1    14355 11680
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 615F344E
+P 19570 11665
+F 0 "#PWR?" H 19570 11515 50  0001 C CNN
+F 1 "+5V_house" H 19585 11838 50  0000 C CNN
+F 2 "" H 19570 11665 50  0001 C CNN
+F 3 "" H 19570 11665 50  0001 C CNN
+	1    19570 11665
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 61690167
+P 19570 10275
+F 0 "#PWR?" H 19570 10125 50  0001 C CNN
+F 1 "+5V_house" H 19585 10448 50  0000 C CNN
+F 2 "" H 19570 10275 50  0001 C CNN
+F 3 "" H 19570 10275 50  0001 C CNN
+	1    19570 10275
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 61746910
+P 8175 9780
+F 0 "#PWR?" H 8175 9630 50  0001 C CNN
+F 1 "+5V_house" H 8190 9953 50  0000 C CNN
+F 2 "" H 8175 9780 50  0001 C CNN
+F 3 "" H 8175 9780 50  0001 C CNN
+	1    8175 9780
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 617E35E2
+P 8175 11170
+F 0 "#PWR?" H 8175 11020 50  0001 C CNN
+F 1 "+5V_house" H 8190 11343 50  0000 C CNN
+F 2 "" H 8175 11170 50  0001 C CNN
+F 3 "" H 8175 11170 50  0001 C CNN
+	1    8175 11170
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 61883EC1
+P 2960 11645
+F 0 "#PWR?" H 2960 11495 50  0001 C CNN
+F 1 "+5V_house" H 2975 11818 50  0000 C CNN
+F 2 "" H 2960 11645 50  0001 C CNN
+F 3 "" H 2960 11645 50  0001 C CNN
+	1    2960 11645
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 619211B9
+P 3015 10335
+F 0 "#PWR?" H 3015 10185 50  0001 C CNN
+F 1 "+5V_house" H 3030 10508 50  0000 C CNN
+F 2 "" H 3015 10335 50  0001 C CNN
+F 3 "" H 3015 10335 50  0001 C CNN
+	1    3015 10335
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_house #PWR?
+U 1 1 619BE193
+P 3020 9040
+F 0 "#PWR?" H 3020 8890 50  0001 C CNN
+F 1 "+5V_house" H 3035 9213 50  0000 C CNN
+F 2 "" H 3020 9040 50  0001 C CNN
+F 3 "" H 3020 9040 50  0001 C CNN
+	1    3020 9040
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61B0FCE6
+P 29085 14860
+F 0 "#PWR?" H 29085 14710 50  0001 C CNN
+F 1 "+5V_truck" H 29100 15033 50  0000 C CNN
+F 2 "" H 29085 14860 50  0001 C CNN
+F 3 "" H 29085 14860 50  0001 C CNN
+	1    29085 14860
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61B196F8
+P 29055 16120
+F 0 "#PWR?" H 29055 15970 50  0001 C CNN
+F 1 "+5V_truck" H 29070 16293 50  0000 C CNN
+F 2 "" H 29055 16120 50  0001 C CNN
+F 3 "" H 29055 16120 50  0001 C CNN
+	1    29055 16120
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61BB6EF0
+P 29060 17480
+F 0 "#PWR?" H 29060 17330 50  0001 C CNN
+F 1 "+5V_truck" H 29075 17653 50  0000 C CNN
+F 2 "" H 29060 17480 50  0001 C CNN
+F 3 "" H 29060 17480 50  0001 C CNN
+	1    29060 17480
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61C54DF5
+P 29055 18790
+F 0 "#PWR?" H 29055 18640 50  0001 C CNN
+F 1 "+5V_truck" H 29070 18963 50  0000 C CNN
+F 2 "" H 29055 18790 50  0001 C CNN
+F 3 "" H 29055 18790 50  0001 C CNN
+	1    29055 18790
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61CF7208
+P 28990 20330
+F 0 "#PWR?" H 28990 20180 50  0001 C CNN
+F 1 "+5V_truck" H 29005 20503 50  0000 C CNN
+F 2 "" H 28990 20330 50  0001 C CNN
+F 3 "" H 28990 20330 50  0001 C CNN
+	1    28990 20330
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61D9B373
+P 24380 20205
+F 0 "#PWR?" H 24380 20055 50  0001 C CNN
+F 1 "+5V_truck" H 24395 20378 50  0000 C CNN
+F 2 "" H 24380 20205 50  0001 C CNN
+F 3 "" H 24380 20205 50  0001 C CNN
+	1    24380 20205
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61E38FE0
+P 24435 18895
+F 0 "#PWR?" H 24435 18745 50  0001 C CNN
+F 1 "+5V_truck" H 24450 19068 50  0000 C CNN
+F 2 "" H 24435 18895 50  0001 C CNN
+F 3 "" H 24435 18895 50  0001 C CNN
+	1    24435 18895
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61ED6CDE
+P 24315 17560
+F 0 "#PWR?" H 24315 17410 50  0001 C CNN
+F 1 "+5V_truck" H 24330 17733 50  0000 C CNN
+F 2 "" H 24315 17560 50  0001 C CNN
+F 3 "" H 24315 17560 50  0001 C CNN
+	1    24315 17560
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 61F764F8
+P 24320 16265
+F 0 "#PWR?" H 24320 16115 50  0001 C CNN
+F 1 "+5V_truck" H 24335 16438 50  0000 C CNN
+F 2 "" H 24320 16265 50  0001 C CNN
+F 3 "" H 24320 16265 50  0001 C CNN
+	1    24320 16265
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 6201327B
+P 24350 14850
+F 0 "#PWR?" H 24350 14700 50  0001 C CNN
+F 1 "+5V_truck" H 24365 15023 50  0000 C CNN
+F 2 "" H 24350 14850 50  0001 C CNN
+F 3 "" H 24350 14850 50  0001 C CNN
+	1    24350 14850
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 620B4736
+P 18945 14730
+F 0 "#PWR?" H 18945 14580 50  0001 C CNN
+F 1 "+5V_truck" H 18960 14903 50  0000 C CNN
+F 2 "" H 18945 14730 50  0001 C CNN
+F 3 "" H 18945 14730 50  0001 C CNN
+	1    18945 14730
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 62153140
+P 18930 15920
+F 0 "#PWR?" H 18930 15770 50  0001 C CNN
+F 1 "+5V_truck" H 18945 16093 50  0000 C CNN
+F 2 "" H 18930 15920 50  0001 C CNN
+F 3 "" H 18930 15920 50  0001 C CNN
+	1    18930 15920
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 621EFF03
+P 18960 17250
+F 0 "#PWR?" H 18960 17100 50  0001 C CNN
+F 1 "+5V_truck" H 18975 17423 50  0000 C CNN
+F 2 "" H 18960 17250 50  0001 C CNN
+F 3 "" H 18960 17250 50  0001 C CNN
+	1    18960 17250
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 6228DF53
+P 18905 18560
+F 0 "#PWR?" H 18905 18410 50  0001 C CNN
+F 1 "+5V_truck" H 18920 18733 50  0000 C CNN
+F 2 "" H 18905 18560 50  0001 C CNN
+F 3 "" H 18905 18560 50  0001 C CNN
+	1    18905 18560
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 6232DC41
+P 18940 20130
+F 0 "#PWR?" H 18940 19980 50  0001 C CNN
+F 1 "+5V_truck" H 18955 20303 50  0000 C CNN
+F 2 "" H 18940 20130 50  0001 C CNN
+F 3 "" H 18940 20130 50  0001 C CNN
+	1    18940 20130
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 623CEBC8
+P 13980 20265
+F 0 "#PWR?" H 13980 20115 50  0001 C CNN
+F 1 "+5V_truck" H 13995 20438 50  0000 C CNN
+F 2 "" H 13980 20265 50  0001 C CNN
+F 3 "" H 13980 20265 50  0001 C CNN
+	1    13980 20265
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 6246E858
+P 13980 18875
+F 0 "#PWR?" H 13980 18725 50  0001 C CNN
+F 1 "+5V_truck" H 13995 19048 50  0000 C CNN
+F 2 "" H 13980 18875 50  0001 C CNN
+F 3 "" H 13980 18875 50  0001 C CNN
+	1    13980 18875
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 6250B289
+P 13830 17435
+F 0 "#PWR?" H 13830 17285 50  0001 C CNN
+F 1 "+5V_truck" H 13845 17608 50  0000 C CNN
+F 2 "" H 13830 17435 50  0001 C CNN
+F 3 "" H 13830 17435 50  0001 C CNN
+	1    13830 17435
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 625A8D99
+P 13885 16125
+F 0 "#PWR?" H 13885 15975 50  0001 C CNN
+F 1 "+5V_truck" H 13900 16298 50  0000 C CNN
+F 2 "" H 13885 16125 50  0001 C CNN
+F 3 "" H 13885 16125 50  0001 C CNN
+	1    13885 16125
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 6264538C
+P 13890 14830
+F 0 "#PWR?" H 13890 14680 50  0001 C CNN
+F 1 "+5V_truck" H 13905 15003 50  0000 C CNN
+F 2 "" H 13890 14830 50  0001 C CNN
+F 3 "" H 13890 14830 50  0001 C CNN
+	1    13890 14830
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 626EC170
+P 8160 17295
+F 0 "#PWR?" H 8160 17145 50  0001 C CNN
+F 1 "+5V_truck" H 8175 17468 50  0000 C CNN
+F 2 "" H 8160 17295 50  0001 C CNN
+F 3 "" H 8160 17295 50  0001 C CNN
+	1    8160 17295
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 6278A9FF
+P 8160 18505
+F 0 "#PWR?" H 8160 18355 50  0001 C CNN
+F 1 "+5V_truck" H 8175 18678 50  0000 C CNN
+F 2 "" H 8160 18505 50  0001 C CNN
+F 3 "" H 8160 18505 50  0001 C CNN
+	1    8160 18505
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 628294FD
+P 2980 19100
+F 0 "#PWR?" H 2980 18950 50  0001 C CNN
+F 1 "+5V_truck" H 2995 19273 50  0000 C CNN
+F 2 "" H 2980 19100 50  0001 C CNN
+F 3 "" H 2980 19100 50  0001 C CNN
+	1    2980 19100
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 628C69A9
+P 2980 17890
+F 0 "#PWR?" H 2980 17740 50  0001 C CNN
+F 1 "+5V_truck" H 2995 18063 50  0000 C CNN
+F 2 "" H 2980 17890 50  0001 C CNN
+F 3 "" H 2980 17890 50  0001 C CNN
+	1    2980 17890
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 629648C0
+P 3010 16575
+F 0 "#PWR?" H 3010 16425 50  0001 C CNN
+F 1 "+5V_truck" H 3025 16748 50  0000 C CNN
+F 2 "" H 3010 16575 50  0001 C CNN
+F 3 "" H 3010 16575 50  0001 C CNN
+	1    3010 16575
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:+5V_truck #PWR?
+U 1 1 62A018F8
+P 3010 15285
+F 0 "#PWR?" H 3010 15135 50  0001 C CNN
+F 1 "+5V_truck" H 3025 15458 50  0000 C CNN
+F 2 "" H 3010 15285 50  0001 C CNN
+F 3 "" H 3010 15285 50  0001 C CNN
+	1    3010 15285
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

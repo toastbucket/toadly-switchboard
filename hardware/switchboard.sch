@@ -305,6 +305,8 @@ $Comp
 L Regulator_Linear:L7805 U?
 U 1 1 60B4A4D5
 P 1700 1255
+AR Path="/605C1303/60B4A4D5" Ref="U?"  Part="1" 
+AR Path="/60B4A4D5" Ref="U?"  Part="1" 
 F 0 "U?" H 1700 1497 50  0000 C CNN
 F 1 "TCMT4600" H 1700 1406 50  0000 C CNN
 F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 1725 1105 50  0001 L CIN
@@ -316,6 +318,8 @@ $Comp
 L Device:C C?
 U 1 1 60B4A4DB
 P 1115 1475
+AR Path="/605C1303/60B4A4DB" Ref="C?"  Part="1" 
+AR Path="/60B4A4DB" Ref="C?"  Part="1" 
 F 0 "C?" H 1230 1521 50  0000 L CNN
 F 1 "0.33uF" H 1230 1430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1153 1325 50  0001 C CNN
@@ -327,6 +331,8 @@ $Comp
 L Device:C C?
 U 1 1 60B4A4E1
 P 2265 1475
+AR Path="/605C1303/60B4A4E1" Ref="C?"  Part="1" 
+AR Path="/60B4A4E1" Ref="C?"  Part="1" 
 F 0 "C?" H 2380 1521 50  0000 L CNN
 F 1 "0.1uF" H 2380 1430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2303 1325 50  0001 C CNN
@@ -381,6 +387,8 @@ $Comp
 L switchboard:+12V_house #PWR?
 U 1 1 60B4A4FE
 P 1115 1220
+AR Path="/605C1303/60B4A4FE" Ref="#PWR?"  Part="1" 
+AR Path="/60B4A4FE" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1115 1070 50  0001 C CNN
 F 1 "+12V_house" H 1130 1393 50  0000 C CNN
 F 2 "" H 1115 1220 50  0001 C CNN
@@ -392,6 +400,8 @@ $Comp
 L Regulator_Linear:L7805 U?
 U 1 1 60B50BBB
 P 1680 2380
+AR Path="/605C1303/60B50BBB" Ref="U?"  Part="1" 
+AR Path="/60B50BBB" Ref="U?"  Part="1" 
 F 0 "U?" H 1680 2622 50  0000 C CNN
 F 1 "TCMT4600" H 1680 2531 50  0000 C CNN
 F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 1705 2230 50  0001 L CIN
@@ -403,6 +413,8 @@ $Comp
 L Device:C C?
 U 1 1 60B50BC1
 P 1095 2600
+AR Path="/605C1303/60B50BC1" Ref="C?"  Part="1" 
+AR Path="/60B50BC1" Ref="C?"  Part="1" 
 F 0 "C?" H 1210 2646 50  0000 L CNN
 F 1 "0.33uF" H 1210 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1133 2450 50  0001 C CNN
@@ -414,6 +426,8 @@ $Comp
 L Device:C C?
 U 1 1 60B50BC7
 P 2245 2600
+AR Path="/605C1303/60B50BC7" Ref="C?"  Part="1" 
+AR Path="/60B50BC7" Ref="C?"  Part="1" 
 F 0 "C?" H 2360 2646 50  0000 L CNN
 F 1 "0.1uF" H 2360 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2283 2450 50  0001 C CNN
@@ -497,4 +511,6 @@ F 3 "" H 1095 2345 50  0001 C CNN
 	1    1095 2345
 	1    0    0    -1  
 $EndComp
+Text Notes 2605 2445 0    50   ~ 0
+TODO: use automotive safe regulator
 $EndSCHEMATC
