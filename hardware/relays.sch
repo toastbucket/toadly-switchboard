@@ -6467,7 +6467,7 @@ Wire Notes Line
 	32445 14065 11995 14065
 Text Notes 29950 14390 0    118  ~ 0
 Flasher Components
-Wire Notes Line rgb(194, 12, 90)
+Wire Notes Line width 39 rgb(194, 12, 90)
 	630  12975 32555 12975
 Text Notes 29680 13535 0    118  ~ 0
 Truck Battery
