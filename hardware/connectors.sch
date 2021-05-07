@@ -28,7 +28,7 @@ Text Label 2130 7795 0    50   ~ 0
 DRIVER_FLOOD_A0
 Text Label 2130 7895 0    50   ~ 0
 DRIVER_FLOOD_A1
-Text HLabel 3125 7995 2    50   Input ~ 0
+Text HLabel 3125 7995 2    50   BiDi ~ 0
 DRIVER_FLOOD_A[0..1]
 Wire Wire Line
 	11410 5225 11410 5175
@@ -483,7 +483,7 @@ Text Notes 1700 8900 0    50   ~ 0
 53E
 Wire Wire Line
 	2080 8895 2905 8895
-Text HLabel 3130 8995 2    50   Input ~ 0
+Text HLabel 3130 8995 2    50   BiDi ~ 0
 STROBE_PATTERN[0..1]
 Wire Wire Line
 	2080 8795 2905 8795
@@ -501,7 +501,7 @@ Text Notes 1705 5555 0    50   ~ 0
 6
 Wire Wire Line
 	2075 5750 2900 5750
-Text HLabel 3125 5850 2    50   Input ~ 0
+Text HLabel 3125 5850 2    50   BiDi ~ 0
 BACKUP_ALARM[0..1]
 Wire Wire Line
 	2075 5650 2900 5650
@@ -527,7 +527,7 @@ Text Notes 1710 4955 0    50   ~ 0
 7SR
 Wire Wire Line
 	2075 4950 2900 4950
-Text HLabel 3125 5050 2    50   Input ~ 0
+Text HLabel 3125 5050 2    50   BiDi ~ 0
 SECURITY_RELAY[0..1]
 Wire Wire Line
 	2075 4850 2900 4850
@@ -553,13 +553,13 @@ Text Label 2095 3820 0    50   ~ 0
 MARKER_LIGHTS_A0
 Text Label 2095 3920 0    50   ~ 0
 MARKER_LIGHTS_A1
-Text HLabel 3090 4020 2    50   Input ~ 0
+Text HLabel 3090 4020 2    50   BiDi ~ 0
 MARKER_LIGHTS_A[0..1]
 Text Notes 1660 3925 0    50   ~ 0
 56H
 Wire Wire Line
 	2045 3720 2870 3720
-Text HLabel 3095 3820 2    50   Input ~ 0
+Text HLabel 3095 3820 2    50   BiDi ~ 0
 FOG_CURB[0..1]
 Wire Wire Line
 	2045 3620 2870 3620
@@ -577,7 +577,7 @@ Wire Bus Line
 	2970 3820 3095 3820
 Wire Wire Line
 	2045 3520 2870 3520
-Text HLabel 3095 3620 2    50   Input ~ 0
+Text HLabel 3095 3620 2    50   BiDi ~ 0
 FOG_STREET[0..1]
 Wire Wire Line
 	2045 3420 2870 3420
@@ -607,7 +607,7 @@ Text Label 5585 3835 0    50   ~ 0
 PASS_FLOOD_A0
 Text Label 5585 3935 0    50   ~ 0
 PASS_FLOOD_A1
-Text HLabel 6580 4035 2    50   Input ~ 0
+Text HLabel 6580 4035 2    50   BiDi ~ 0
 PASS_FLOOD_A[0..1]
 Text Notes 5145 4140 0    50   ~ 0
 24B
@@ -621,7 +621,7 @@ Text Label 5585 3435 0    50   ~ 0
 REAR_FLOOD_A0
 Text Label 5585 3535 0    50   ~ 0
 REAR_FLOOD_A1
-Text HLabel 6580 3635 2    50   Input ~ 0
+Text HLabel 6580 3635 2    50   BiDi ~ 0
 REAR_FLOOD_A[0..1]
 Text Notes 5140 3740 0    50   ~ 0
 40A
@@ -635,7 +635,7 @@ Text Label 8690 5585 0    50   ~ 0
 BENCH_DOME_A0
 Text Label 8690 5685 0    50   ~ 0
 BENCH_DOME_A1
-Text HLabel 9685 5785 2    50   Input ~ 0
+Text HLabel 9685 5785 2    50   BiDi ~ 0
 BENCH_DOME_A[0..1]
 Entry Wire Line
 	9470 5585 9570 5685
@@ -651,7 +651,7 @@ Text Label 8690 5185 0    50   ~ 0
 COT_DOME_A0
 Text Label 8690 5285 0    50   ~ 0
 COT_DOME_A1
-Text HLabel 9685 5385 2    50   Input ~ 0
+Text HLabel 9685 5385 2    50   BiDi ~ 0
 COT_DOME_A[0..1]
 Entry Wire Line
 	9470 5185 9570 5285
@@ -679,7 +679,7 @@ Text Label 8690 4785 0    50   ~ 0
 STRIP_LIGHT_C0
 Text Label 8690 4885 0    50   ~ 0
 STRIP_LIGHT_C1
-Text HLabel 9685 4985 2    50   Input ~ 0
+Text HLabel 9685 4985 2    50   BiDi ~ 0
 STRIP_LIGHT_C[0..1]
 Entry Wire Line
 	9470 4785 9570 4885
@@ -693,7 +693,7 @@ Text Notes 8280 7615 0    50   ~ 0
 191
 Wire Wire Line
 	8635 4225 9460 4225
-Text HLabel 9685 4325 2    50   Input ~ 0
+Text HLabel 9685 4325 2    50   BiDi ~ 0
 WATER_PUMP[0..1]
 Wire Wire Line
 	8635 4125 9460 4125
@@ -725,7 +725,7 @@ Entry Wire Line
 	2905 8595 3005 8695
 Wire Wire Line
 	2080 8595 2905 8595
-Text HLabel 3130 8795 2    50   Input ~ 0
+Text HLabel 3130 8795 2    50   BiDi ~ 0
 BAR_LIGHT[0..1]
 Wire Wire Line
 	2080 8695 2905 8695
@@ -735,7 +735,7 @@ Text Label 2140 6950 0    50   ~ 0
 HEADLAMP_HI_R0
 Wire Wire Line
 	2080 6950 2905 6950
-Text HLabel 3130 7150 2    50   Input ~ 0
+Text HLabel 3130 7150 2    50   BiDi ~ 0
 HEADLAMP_HI_R[0..1]
 Wire Wire Line
 	2080 7050 2905 7050
@@ -753,7 +753,7 @@ Text Label 2140 7150 0    50   ~ 0
 HEADLAMP_HI_L0
 Wire Wire Line
 	2080 7150 2905 7150
-Text HLabel 3130 7350 2    50   Input ~ 0
+Text HLabel 3130 7350 2    50   BiDi ~ 0
 HEADLAMP_HI_L[0..1]
 Wire Wire Line
 	2080 7250 2905 7250
@@ -773,7 +773,7 @@ Text Label 8750 7510 0    50   ~ 0
 STRIP_LIGHT_F0
 Text Label 8750 7610 0    50   ~ 0
 STRIP_LIGHT_F1
-Text HLabel 9745 7710 2    50   Input ~ 0
+Text HLabel 9745 7710 2    50   BiDi ~ 0
 STRIP_LIGHT_F[0..1]
 Entry Wire Line
 	9530 7510 9630 7610
@@ -811,7 +811,7 @@ Text Label 8750 6510 0    50   ~ 0
 COMP_5_LIGHT0
 Text Label 8750 6610 0    50   ~ 0
 COMP_5_LIGHT1
-Text HLabel 9745 6710 2    50   Input ~ 0
+Text HLabel 9745 6710 2    50   BiDi ~ 0
 COMP_5_LIGHT[0..1]
 Entry Wire Line
 	9530 6510 9630 6610
@@ -829,7 +829,7 @@ Text Label 8750 6710 0    50   ~ 0
 COMP_4_LIGHT0
 Text Label 8750 6810 0    50   ~ 0
 COMP_4_LIGHT1
-Text HLabel 9745 6910 2    50   Input ~ 0
+Text HLabel 9745 6910 2    50   BiDi ~ 0
 COMP_4_LIGHT[0..1]
 Entry Wire Line
 	9530 6710 9630 6810
@@ -847,7 +847,7 @@ Text Label 8750 6910 0    50   ~ 0
 COMP_3_LIGHT0
 Text Label 8750 7010 0    50   ~ 0
 COMP_3_LIGHT1
-Text HLabel 9745 7110 2    50   Input ~ 0
+Text HLabel 9745 7110 2    50   BiDi ~ 0
 COMP_3_LIGHT[0..1]
 Entry Wire Line
 	9530 6910 9630 7010
@@ -865,7 +865,7 @@ Text Label 8750 7110 0    50   ~ 0
 COMP_2_LIGHT0
 Text Label 8750 7210 0    50   ~ 0
 COMP_2_LIGHT1
-Text HLabel 9745 7310 2    50   Input ~ 0
+Text HLabel 9745 7310 2    50   BiDi ~ 0
 COMP_2_LIGHT[0..1]
 Entry Wire Line
 	9530 7110 9630 7210
@@ -883,7 +883,7 @@ Text Label 8750 7310 0    50   ~ 0
 COMP_1_LIGHT0
 Text Label 8750 7410 0    50   ~ 0
 COMP_1_LIGHT1
-Text HLabel 9745 7510 2    50   Input ~ 0
+Text HLabel 9745 7510 2    50   BiDi ~ 0
 COMP_1_LIGHT[0..1]
 Entry Wire Line
 	9530 7310 9630 7410
@@ -1048,7 +1048,7 @@ Text Label 5585 4680 0    50   ~ 0
 LIGHT_BAR_F0
 Text Label 5585 4780 0    50   ~ 0
 LIGHT_BAR_F1
-Text HLabel 6580 4880 2    50   Input ~ 0
+Text HLabel 6580 4880 2    50   BiDi ~ 0
 LIGHT_BAR_F[0..1]
 Entry Wire Line
 	6365 4680 6465 4780
@@ -1066,7 +1066,7 @@ Text Label 5585 4880 0    50   ~ 0
 LIGHT_BAR_E0
 Text Label 5585 4980 0    50   ~ 0
 LIGHT_BAR_E1
-Text HLabel 6580 5080 2    50   Input ~ 0
+Text HLabel 6580 5080 2    50   BiDi ~ 0
 LIGHT_BAR_E[0..1]
 Entry Wire Line
 	6365 4880 6465 4980
@@ -1084,7 +1084,7 @@ Text Label 5585 5080 0    50   ~ 0
 LIGHT_BAR_D0
 Text Label 5585 5180 0    50   ~ 0
 LIGHT_BAR_D1
-Text HLabel 6580 5280 2    50   Input ~ 0
+Text HLabel 6580 5280 2    50   BiDi ~ 0
 LIGHT_BAR_D[0..1]
 Entry Wire Line
 	6365 5080 6465 5180
@@ -1102,7 +1102,7 @@ Text Label 5585 5280 0    50   ~ 0
 LIGHT_BAR_C0
 Text Label 5585 5380 0    50   ~ 0
 LIGHT_BAR_C1
-Text HLabel 6580 5480 2    50   Input ~ 0
+Text HLabel 6580 5480 2    50   BiDi ~ 0
 LIGHT_BAR_C[0..1]
 Entry Wire Line
 	6365 5280 6465 5380
@@ -1120,7 +1120,7 @@ Text Label 5585 5480 0    50   ~ 0
 LIGHT_BAR_B0
 Text Label 5585 5580 0    50   ~ 0
 LIGHT_BAR_B1
-Text HLabel 6580 5680 2    50   Input ~ 0
+Text HLabel 6580 5680 2    50   BiDi ~ 0
 LIGHT_BAR_B[0..1]
 Entry Wire Line
 	6365 5480 6465 5580
@@ -1138,7 +1138,7 @@ Text Label 5590 6180 0    50   ~ 0
 STREET_REAR_RED0
 Text Label 5590 6280 0    50   ~ 0
 STREET_REAR_RED1
-Text HLabel 6585 6380 2    50   Input ~ 0
+Text HLabel 6585 6380 2    50   BiDi ~ 0
 STREET_REAR_RED[0..1]
 Entry Wire Line
 	6370 6180 6470 6280
@@ -1156,7 +1156,7 @@ Text Label 5590 6380 0    50   ~ 0
 STREET_FRONT_RED0
 Text Label 5590 6480 0    50   ~ 0
 STREET_FRONT_RED1
-Text HLabel 6585 6580 2    50   Input ~ 0
+Text HLabel 6585 6580 2    50   BiDi ~ 0
 STREET_FRONT_RED[0..1]
 Entry Wire Line
 	6370 6380 6470 6480
@@ -1174,7 +1174,7 @@ Text Label 5590 6580 0    50   ~ 0
 GRILLE_STROBE0
 Text Label 5590 6680 0    50   ~ 0
 GRILLE_STROBE1
-Text HLabel 6585 6780 2    50   Input ~ 0
+Text HLabel 6585 6780 2    50   BiDi ~ 0
 GRILLE_STROBE[0..1]
 Entry Wire Line
 	6370 6580 6470 6680
@@ -1192,7 +1192,7 @@ Text Label 5590 6780 0    50   ~ 0
 REAR_STROBE0
 Text Label 5590 6880 0    50   ~ 0
 REAR_STROBE1
-Text HLabel 6585 6980 2    50   Input ~ 0
+Text HLabel 6585 6980 2    50   BiDi ~ 0
 REAR_STROBE[0..1]
 Entry Wire Line
 	6370 6780 6470 6880
@@ -1210,7 +1210,7 @@ Text Label 5590 6980 0    50   ~ 0
 REAR_LOW_CURB0
 Text Label 5590 7080 0    50   ~ 0
 REAR_LOW_CURB1
-Text HLabel 6585 7180 2    50   Input ~ 0
+Text HLabel 6585 7180 2    50   BiDi ~ 0
 REAR_LOW_CURB[0..1]
 Entry Wire Line
 	6370 6980 6470 7080
@@ -1228,7 +1228,7 @@ Text Label 5590 7180 0    50   ~ 0
 REAR_LOW_STREET0
 Text Label 5590 7280 0    50   ~ 0
 REAR_LOW_STREET1
-Text HLabel 6585 7380 2    50   Input ~ 0
+Text HLabel 6585 7380 2    50   BiDi ~ 0
 REAR_LOW_STREET[0..1]
 Entry Wire Line
 	6370 7180 6470 7280
@@ -1246,7 +1246,7 @@ Text Label 5605 8140 0    50   ~ 0
 PACK_POWER_A0
 Text Label 5605 8240 0    50   ~ 0
 PACK_POWER_A1
-Text HLabel 6600 8340 2    50   Input ~ 0
+Text HLabel 6600 8340 2    50   BiDi ~ 0
 PACK_POWER_A[0..1]
 Entry Wire Line
 	6385 8140 6485 8240
@@ -1264,7 +1264,7 @@ Text Label 5605 8340 0    50   ~ 0
 PACK_POWER_B0
 Text Label 5605 8440 0    50   ~ 0
 PACK_POWER_B1
-Text HLabel 6600 8540 2    50   Input ~ 0
+Text HLabel 6600 8540 2    50   BiDi ~ 0
 PACK_POWER_B[0..1]
 Entry Wire Line
 	6385 8340 6485 8440
@@ -1282,7 +1282,7 @@ Text Label 5605 8540 0    50   ~ 0
 CURB_REAR_RED0
 Text Label 5605 8640 0    50   ~ 0
 CURB_REAR_RED1
-Text HLabel 6600 8740 2    50   Input ~ 0
+Text HLabel 6600 8740 2    50   BiDi ~ 0
 CURB_REAR_RED[0..1]
 Entry Wire Line
 	6385 8540 6485 8640
@@ -1300,7 +1300,7 @@ Text Label 5605 8740 0    50   ~ 0
 CURB_FRONT_RED0
 Text Label 5605 8840 0    50   ~ 0
 CURB_FRONT_RED1
-Text HLabel 6600 8940 2    50   Input ~ 0
+Text HLabel 6600 8940 2    50   BiDi ~ 0
 CURB_FRONT_RED[0..1]
 Entry Wire Line
 	6385 8740 6485 8840
@@ -1318,7 +1318,7 @@ Text Label 5605 7740 0    50   ~ 0
 LIGHT_BAR_G0
 Text Label 5605 7840 0    50   ~ 0
 LIGHT_BAR_G1
-Text HLabel 6600 7940 2    50   Input ~ 0
+Text HLabel 6600 7940 2    50   BiDi ~ 0
 LIGHT_BAR_G[0..1]
 Entry Wire Line
 	6385 7740 6485 7840
@@ -1336,7 +1336,7 @@ Text Label 5605 7940 0    50   ~ 0
 LIGHT_BAR_A0
 Text Label 5605 8040 0    50   ~ 0
 LIGHT_BAR_A1
-Text HLabel 6600 8140 2    50   Input ~ 0
+Text HLabel 6600 8140 2    50   BiDi ~ 0
 LIGHT_BAR_A[0..1]
 Entry Wire Line
 	6385 7940 6485 8040
@@ -1366,7 +1366,7 @@ Text Label 2095 4020 0    50   ~ 0
 MARKER_LIGHTS_B0
 Wire Wire Line
 	2045 4020 2875 4020
-Text HLabel 3090 4220 2    50   Input ~ 0
+Text HLabel 3090 4220 2    50   BiDi ~ 0
 MARKER_LIGHTS_B[0..1]
 Text Notes 1280 5360 0    50   ~ 0
 SIREN_AUX
@@ -1388,7 +1388,7 @@ Text Label 2130 7995 0    50   ~ 0
 DRIVER_FLOOD_B0
 Text Label 2130 8095 0    50   ~ 0
 DRIVER_FLOOD_B1
-Text HLabel 3125 8195 2    50   Input ~ 0
+Text HLabel 3125 8195 2    50   BiDi ~ 0
 DRIVER_FLOOD_B[0..1]
 Entry Wire Line
 	2910 8095 3010 8195
@@ -1410,7 +1410,7 @@ Text Label 5585 4035 0    50   ~ 0
 PASS_FLOOD_B0
 Text Label 5585 4135 0    50   ~ 0
 PASS_FLOOD_B1
-Text HLabel 6580 4235 2    50   Input ~ 0
+Text HLabel 6580 4235 2    50   BiDi ~ 0
 PASS_FLOOD_B[0..1]
 Entry Wire Line
 	6365 4135 6465 4235
@@ -1432,7 +1432,7 @@ Text Label 5585 3635 0    50   ~ 0
 REAR_FLOOD_B0
 Text Label 5585 3735 0    50   ~ 0
 REAR_FLOOD_B1
-Text HLabel 6580 3835 2    50   Input ~ 0
+Text HLabel 6580 3835 2    50   BiDi ~ 0
 REAR_FLOOD_B[0..1]
 Entry Wire Line
 	6365 3735 6465 3835
@@ -1454,7 +1454,7 @@ Text Label 8690 5785 0    50   ~ 0
 BENCH_DOME_B0
 Text Label 8690 5885 0    50   ~ 0
 BENCH_DOME_B1
-Text HLabel 9685 5985 2    50   Input ~ 0
+Text HLabel 9685 5985 2    50   BiDi ~ 0
 BENCH_DOME_B[0..1]
 Entry Wire Line
 	9470 5885 9570 5985
@@ -1476,7 +1476,7 @@ Text Label 8690 5385 0    50   ~ 0
 COT_DOME_B0
 Text Label 8690 5485 0    50   ~ 0
 COT_DOME_B1
-Text HLabel 9685 5585 2    50   Input ~ 0
+Text HLabel 9685 5585 2    50   BiDi ~ 0
 COT_DOME_B[0..1]
 Entry Wire Line
 	9470 5485 9570 5585
@@ -1498,7 +1498,7 @@ Text Label 8690 4985 0    50   ~ 0
 STRIP_LIGHT_R0
 Text Label 8690 5085 0    50   ~ 0
 STRIP_LIGHT_R1
-Text HLabel 9685 5185 2    50   Input ~ 0
+Text HLabel 9685 5185 2    50   BiDi ~ 0
 STRIP_LIGHT_R[0..1]
 Entry Wire Line
 	9470 5085 9570 5185

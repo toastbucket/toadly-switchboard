@@ -31,7 +31,7 @@ Wire Bus Line
 	5245 1840 5245 2505
 Wire Bus Line
 	5245 2505 5330 2505
-Text HLabel 5330 2505 2    50   Input ~ 0
+Text HLabel 5330 2505 2    50   BiDi ~ 0
 DRIVER_FLOOD_A[0..1]
 Entry Wire Line
 	5145 2405 5245 2505
@@ -249,7 +249,7 @@ Wire Bus Line
 	5180 3380 5180 4045
 Wire Bus Line
 	5180 4045 5265 4045
-Text HLabel 5265 4045 2    50   Input ~ 0
+Text HLabel 5265 4045 2    50   BiDi ~ 0
 DRIVER_FLOOD_B[0..1]
 Entry Wire Line
 	5080 3945 5180 4045
@@ -353,7 +353,7 @@ Wire Bus Line
 	5175 4725 5175 5390
 Wire Bus Line
 	5175 5390 5260 5390
-Text HLabel 5260 5390 2    50   Input ~ 0
+Text HLabel 5260 5390 2    50   BiDi ~ 0
 PASS_FLOOD_A[0..1]
 Entry Wire Line
 	5075 5290 5175 5390
@@ -461,7 +461,7 @@ Wire Bus Line
 	5110 6265 5110 6930
 Wire Bus Line
 	5110 6930 5195 6930
-Text HLabel 5195 6930 2    50   Input ~ 0
+Text HLabel 5195 6930 2    50   BiDi ~ 0
 PASS_FLOOD_B[0..1]
 Entry Wire Line
 	5010 6830 5110 6930
@@ -565,7 +565,7 @@ Wire Bus Line
 	10535 3680 10535 4345
 Wire Bus Line
 	10535 4345 10620 4345
-Text HLabel 10620 4345 2    50   Input ~ 0
+Text HLabel 10620 4345 2    50   BiDi ~ 0
 REAR_FLOOD_A[0..1]
 Entry Wire Line
 	10435 4245 10535 4345
@@ -673,7 +673,7 @@ Wire Bus Line
 	10470 5220 10470 5885
 Wire Bus Line
 	10470 5885 10555 5885
-Text HLabel 10555 5885 2    50   Input ~ 0
+Text HLabel 10555 5885 2    50   BiDi ~ 0
 REAR_FLOOD_B[0..1]
 Entry Wire Line
 	10370 5785 10470 5885
@@ -917,7 +917,7 @@ Wire Bus Line
 	16575 1930 16575 2595
 Wire Bus Line
 	16575 2595 16660 2595
-Text HLabel 16660 2595 2    50   Input ~ 0
+Text HLabel 16660 2595 2    50   BiDi ~ 0
 BENCH_DOME_A[0..1]
 Entry Wire Line
 	16475 2495 16575 2595
@@ -1025,7 +1025,7 @@ Wire Bus Line
 	16510 3470 16510 4135
 Wire Bus Line
 	16510 4135 16595 4135
-Text HLabel 16595 4135 2    50   Input ~ 0
+Text HLabel 16595 4135 2    50   BiDi ~ 0
 BENCH_DOME_B[0..1]
 Entry Wire Line
 	16410 4035 16510 4135
@@ -1187,7 +1187,7 @@ Wire Bus Line
 	16535 4885 16535 5550
 Wire Bus Line
 	16535 5550 16620 5550
-Text HLabel 16620 5550 2    50   Input ~ 0
+Text HLabel 16620 5550 2    50   BiDi ~ 0
 COT_DOME_A[0..1]
 Entry Wire Line
 	16435 5450 16535 5550
@@ -1321,7 +1321,7 @@ Wire Bus Line
 	16520 6220 16520 6885
 Wire Bus Line
 	16520 6885 16605 6885
-Text HLabel 16605 6885 2    50   Input ~ 0
+Text HLabel 16605 6885 2    50   BiDi ~ 0
 COT_DOME_B[0..1]
 Entry Wire Line
 	16420 6785 16520 6885
@@ -1453,7 +1453,7 @@ Wire Bus Line
 	21760 1905 21760 2570
 Wire Bus Line
 	21760 2570 21845 2570
-Text HLabel 21845 2570 2    50   Input ~ 0
+Text HLabel 21845 2570 2    50   BiDi ~ 0
 BAR_LIGHT[0..1]
 Entry Wire Line
 	21660 2470 21760 2570
@@ -1587,7 +1587,7 @@ Wire Bus Line
 	21755 3300 21755 3965
 Wire Bus Line
 	21755 3965 21840 3965
-Text HLabel 21840 3965 2    50   Input ~ 0
+Text HLabel 21840 3965 2    50   BiDi ~ 0
 STRIP_LIGHT_F[0..1]
 Entry Wire Line
 	21655 3865 21755 3965
@@ -1695,7 +1695,7 @@ Wire Bus Line
 	21690 4840 21690 5505
 Wire Bus Line
 	21690 5505 21775 5505
-Text HLabel 21775 5505 2    50   Input ~ 0
+Text HLabel 21775 5505 2    50   BiDi ~ 0
 STRIP_LIGHT_C[0..1]
 Entry Wire Line
 	21590 5405 21690 5505
@@ -1857,7 +1857,7 @@ Wire Bus Line
 	21715 6255 21715 6920
 Wire Bus Line
 	21715 6920 21800 6920
-Text HLabel 21800 6920 2    50   Input ~ 0
+Text HLabel 21800 6920 2    50   BiDi ~ 0
 STRIP_LIGHT_R[0..1]
 Entry Wire Line
 	21615 6820 21715 6920
@@ -2009,7 +2009,7 @@ Wire Bus Line
 	5240 8950 5240 9615
 Wire Bus Line
 	5240 9615 5325 9615
-Text HLabel 5325 9615 2    50   Input ~ 0
+Text HLabel 5325 9615 2    50   BiDi ~ 0
 COMP_1_LIGHT[0..1]
 Entry Wire Line
 	5140 9515 5240 9615
@@ -2143,7 +2143,7 @@ Wire Bus Line
 	5235 10245 5235 10910
 Wire Bus Line
 	5235 10910 5320 10910
-Text HLabel 5320 10910 2    50   Input ~ 0
+Text HLabel 5320 10910 2    50   BiDi ~ 0
 COMP_2_LIGHT[0..1]
 Entry Wire Line
 	5135 10810 5235 10910
@@ -2277,7 +2277,7 @@ Wire Bus Line
 	5180 11555 5180 12220
 Wire Bus Line
 	5180 12220 5265 12220
-Text HLabel 5265 12220 2    50   Input ~ 0
+Text HLabel 5265 12220 2    50   BiDi ~ 0
 COMP_3_LIGHT[0..1]
 Entry Wire Line
 	5080 12120 5180 12220
@@ -2411,7 +2411,7 @@ Wire Bus Line
 	10395 9690 10395 10355
 Wire Bus Line
 	10395 10355 10480 10355
-Text HLabel 10480 10355 2    50   Input ~ 0
+Text HLabel 10480 10355 2    50   BiDi ~ 0
 COMP_4_LIGHT[0..1]
 Entry Wire Line
 	10295 10255 10395 10355
@@ -2545,7 +2545,7 @@ Wire Bus Line
 	10395 11080 10395 11745
 Wire Bus Line
 	10395 11745 10480 11745
-Text HLabel 10480 11745 2    50   Input ~ 0
+Text HLabel 10480 11745 2    50   BiDi ~ 0
 COMP_5_LIGHT[0..1]
 Entry Wire Line
 	10295 11645 10395 11745
@@ -2689,7 +2689,7 @@ Wire Bus Line
 	16635 8985 16635 9650
 Wire Bus Line
 	16635 9650 16720 9650
-Text HLabel 16720 9650 2    50   Input ~ 0
+Text HLabel 16720 9650 2    50   BiDi ~ 0
 WATER_PUMP[0..1]
 Entry Wire Line
 	16535 9550 16635 9650
@@ -2823,7 +2823,7 @@ Wire Bus Line
 	16630 10280 16630 10945
 Wire Bus Line
 	16630 10945 16715 10945
-Text HLabel 16715 10945 2    50   Input ~ 0
+Text HLabel 16715 10945 2    50   BiDi ~ 0
 AUX_1_OUT[0..1]
 Entry Wire Line
 	16530 10845 16630 10945
@@ -2957,7 +2957,7 @@ Wire Bus Line
 	16575 11590 16575 12255
 Wire Bus Line
 	16575 12255 16660 12255
-Text HLabel 16660 12255 2    50   Input ~ 0
+Text HLabel 16660 12255 2    50   BiDi ~ 0
 AUX_2_OUT[0..1]
 Entry Wire Line
 	16475 12155 16575 12255
@@ -3091,8 +3091,6 @@ Wire Bus Line
 	21790 10185 21790 10850
 Wire Bus Line
 	21790 10850 21875 10850
-Text HLabel 21875 10850 2    50   Input ~ 0
-AUX_3_OUT[0..1]
 Entry Wire Line
 	21690 10750 21790 10850
 Text Label 21015 10750 0    50   ~ 0
@@ -3225,7 +3223,7 @@ Wire Bus Line
 	21790 11575 21790 12240
 Wire Bus Line
 	21790 12240 21875 12240
-Text HLabel 21875 12240 2    50   Input ~ 0
+Text HLabel 21875 12240 2    50   BiDi ~ 0
 AUX_4_OUT[0..1]
 Entry Wire Line
 	21690 12140 21790 12240
@@ -3365,4 +3363,6 @@ Wire Notes Line
 	23245 8440 12445 8440
 Text Notes 20890 8935 0    118  ~ 0
 Interior Components
+Text HLabel 21875 10850 2    50   BiDi ~ 0
+AUX_3_OUT[0..1]
 $EndSCHEMATC
