@@ -922,54 +922,54 @@ COMP5
 Text Label 13470 6150 0    50   ~ 0
 COMP6
 Text Label 13465 6450 0    50   ~ 0
-R_DOOR_SENSE
+R_DOOR
 Text Label 13465 6550 0    50   ~ 0
-S_DOOR_SENSE
-Text Label 14095 5650 0    50   ~ 0
-SENSE7
-Text Label 14095 5750 0    50   ~ 0
-SENSE8
-Text Label 14095 5850 0    50   ~ 0
-SENSE9
-Text Label 14095 5950 0    50   ~ 0
-SENSE10
-Text Label 14095 6050 0    50   ~ 0
-SENSE11
-Text Label 14095 6150 0    50   ~ 0
-SENSE12
-Text Label 14090 6450 0    50   ~ 0
-SENSE13
-Text Label 14090 6550 0    50   ~ 0
-SENSE14
+S_DOOR
+Text Label 13865 5650 0    50   ~ 0
+HOUSE_SENSE0
+Text Label 13865 5750 0    50   ~ 0
+HOUSE_SENSE1
+Text Label 13865 5850 0    50   ~ 0
+HOUSE_SENSE2
+Text Label 13865 5950 0    50   ~ 0
+HOUSE_SENSE3
+Text Label 13865 6050 0    50   ~ 0
+HOUSE_SENSE4
+Text Label 13865 6150 0    50   ~ 0
+HOUSE_SENSE5
+Text Label 13870 6450 0    50   ~ 0
+HOUSE_SENSE6
+Text Label 13870 6550 0    50   ~ 0
+HOUSE_SENSE7
 Text Label 13450 4250 0    50   ~ 0
-PARK_BRAKE
+P_BRAKE
 NoConn ~ 13425 4350
 Text Label 13445 4450 0    50   ~ 0
-HORN_SIGNAL
+HORN
 Text Label 13445 4550 0    50   ~ 0
-MARKER_LIGHTS
+MARKERS
 Text Label 13450 4650 0    50   ~ 0
-REVERSE_LIGHT
+REVERSE
 Text Label 13455 4750 0    50   ~ 0
-STOP_LIGHT
+STOP
 Text Label 13455 4850 0    50   ~ 0
-BATT_SWITCH
+BATT_SW
 Text Label 13455 4950 0    50   ~ 0
-HEADLAMP_DIM
-Text Label 14085 4950 0    50   ~ 0
-SENSE6
-Text Label 14085 4850 0    50   ~ 0
-SENSE5
-Text Label 14085 4750 0    50   ~ 0
-SENSE4
-Text Label 14085 4650 0    50   ~ 0
-SENSE3
-Text Label 14085 4550 0    50   ~ 0
-SENSE2
-Text Label 14085 4450 0    50   ~ 0
-SENSE1
-Text Label 14085 4250 0    50   ~ 0
-SENSE0
+HL_DIM
+Text Label 13875 4950 0    50   ~ 0
+TRUCK_SENSE6
+Text Label 13875 4850 0    50   ~ 0
+TRUCK_SENSE5
+Text Label 13875 4750 0    50   ~ 0
+TRUCK_SENSE4
+Text Label 13875 4650 0    50   ~ 0
+TRUCK_SENSE3
+Text Label 13875 4550 0    50   ~ 0
+TRUCK_SENSE2
+Text Label 13875 4450 0    50   ~ 0
+TRUCK_SENSE1
+Text Label 13875 4250 0    50   ~ 0
+TRUCK_SENSE0
 Entry Wire Line
 	14435 5650 14535 5750
 Entry Wire Line
@@ -994,8 +994,8 @@ Text Notes 14755 5945 0    50   ~ 0
 Compartments
 Wire Bus Line
 	14535 6650 14675 6650
-Text HLabel 14675 6650 2    50   Input ~ 0
-SENSE[0..14]
+Text HLabel 14675 6650 2    50   Output ~ 0
+HOUSE_SENSE[0..7]
 Wire Wire Line
 	13430 5950 14435 5950
 Wire Wire Line
@@ -1509,5 +1509,11 @@ Wire Wire Line
 Wire Wire Line
 	8640 4985 9470 4985
 Wire Bus Line
-	14535 4350 14535 6650
+	14535 5050 14675 5050
+Text HLabel 14675 5050 2    50   Output ~ 0
+TRUCK_SENSE[0..6]
+Wire Bus Line
+	14535 5750 14535 6650
+Wire Bus Line
+	14535 4350 14535 5050
 $EndSCHEMATC
