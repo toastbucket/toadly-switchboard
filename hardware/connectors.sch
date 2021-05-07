@@ -995,7 +995,7 @@ Compartments
 Wire Bus Line
 	14535 6650 14675 6650
 Text HLabel 14675 6650 2    50   Input ~ 0
-SENSE[0.14]
+SENSE[0..14]
 Wire Wire Line
 	13430 5950 14435 5950
 Wire Wire Line
