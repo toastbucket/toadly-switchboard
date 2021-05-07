@@ -13,20 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L switchboard:VN750 U?
-U 1 1 6093B742
-P 3695 1825
-F 0 "U?" H 3945 1022 50  0000 C CNN
-F 1 "TCMT4600" H 3945 931 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3695 1825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3695 1825 50  0001 C CNN
-F 4 "ST" H 3695 1825 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3695 1825 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3695 1825 50  0001 C CNN "Supplier URL"
-	1    3695 1825
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	5245 1840 5245 2505
 Wire Bus Line
@@ -681,76 +667,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    7905 5455
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60A9E2AC
-P 3630 3365
-F 0 "U?" H 3880 2562 50  0000 C CNN
-F 1 "TCMT4600" H 3880 2471 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3630 3365 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3630 3365 50  0001 C CNN
-F 4 "ST" H 3630 3365 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3630 3365 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3630 3365 50  0001 C CNN "Supplier URL"
-	1    3630 3365
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60AA34DB
-P 3625 4710
-F 0 "U?" H 3875 3907 50  0000 C CNN
-F 1 "TCMT4600" H 3875 3816 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3625 4710 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3625 4710 50  0001 C CNN
-F 4 "ST" H 3625 4710 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3625 4710 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3625 4710 50  0001 C CNN "Supplier URL"
-	1    3625 4710
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60AA5BFA
-P 3560 6250
-F 0 "U?" H 3810 5447 50  0000 C CNN
-F 1 "TCMT4600" H 3810 5356 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3560 6250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3560 6250 50  0001 C CNN
-F 4 "ST" H 3560 6250 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3560 6250 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3560 6250 50  0001 C CNN "Supplier URL"
-	1    3560 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60AAB407
-P 8985 3665
-F 0 "U?" H 9235 2862 50  0000 C CNN
-F 1 "TCMT4600" H 9235 2771 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 8985 3665 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 8985 3665 50  0001 C CNN
-F 4 "ST" H 8985 3665 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 8985 3665 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 8985 3665 50  0001 C CNN "Supplier URL"
-	1    8985 3665
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60AAE2C6
-P 8920 5205
-F 0 "U?" H 9170 4402 50  0000 C CNN
-F 1 "TCMT4600" H 9170 4311 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 8920 5205 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 8920 5205 50  0001 C CNN
-F 4 "ST" H 8920 5205 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 8920 5205 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 8920 5205 50  0001 C CNN "Supplier URL"
-	1    8920 5205
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	16575 1930 16575 2595
 Wire Bus Line
@@ -969,34 +885,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    13945 3705
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60996476
-P 15025 1915
-F 0 "U?" H 15275 1112 50  0000 C CNN
-F 1 "TCMT4600" H 15275 1021 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 15025 1915 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 15025 1915 50  0001 C CNN
-F 4 "ST" H 15025 1915 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 15025 1915 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 15025 1915 50  0001 C CNN "Supplier URL"
-	1    15025 1915
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 6099647F
-P 14960 3455
-F 0 "U?" H 15210 2652 50  0000 C CNN
-F 1 "TCMT4600" H 15210 2561 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14960 3455 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 14960 3455 50  0001 C CNN
-F 4 "ST" H 14960 3455 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 14960 3455 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 14960 3455 50  0001 C CNN "Supplier URL"
-	1    14960 3455
-	1    0    0    -1  
-$EndComp
 Text Label 12695 5020 0    50   ~ 0
 DOME_CTRL_12V
 Wire Bus Line
@@ -1104,20 +992,6 @@ F 4 "Vishay" H 13970 5353 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 13970 5120 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 13970 5120 50  0001 C CNN "Supplier URL"
 	1    13970 5120
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 609B36E3
-P 14985 4870
-F 0 "U?" H 15235 4067 50  0000 C CNN
-F 1 "TCMT4600" H 15235 3976 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14985 4870 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 14985 4870 50  0001 C CNN
-F 4 "ST" H 14985 4870 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 14985 4870 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 14985 4870 50  0001 C CNN "Supplier URL"
-	1    14985 4870
 	1    0    0    -1  
 $EndComp
 Text Label 12680 6355 0    50   ~ 0
@@ -1229,20 +1103,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    13955 6455
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 609BD55E
-P 14970 6205
-F 0 "U?" H 15220 5402 50  0000 C CNN
-F 1 "TCMT4600" H 15220 5311 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14970 6205 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 14970 6205 50  0001 C CNN
-F 4 "ST" H 14970 6205 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 14970 6205 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 14970 6205 50  0001 C CNN "Supplier URL"
-	1    14970 6205
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	21760 1905 21760 2570
 Wire Bus Line
@@ -1350,20 +1210,6 @@ F 4 "Vishay" H 19195 2373 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 19195 2140 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 19195 2140 50  0001 C CNN "Supplier URL"
 	1    19195 2140
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60A3449E
-P 20210 1890
-F 0 "U?" H 20460 1087 50  0000 C CNN
-F 1 "TCMT4600" H 20460 996 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 20210 1890 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 20210 1890 50  0001 C CNN
-F 4 "ST" H 20210 1890 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 20210 1890 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 20210 1890 50  0001 C CNN "Supplier URL"
-	1    20210 1890
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -1584,34 +1430,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    19125 5075
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60A73BA6
-P 20205 3285
-F 0 "U?" H 20455 2482 50  0000 C CNN
-F 1 "TCMT4600" H 20455 2391 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 20205 3285 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 20205 3285 50  0001 C CNN
-F 4 "ST" H 20205 3285 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 20205 3285 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 20205 3285 50  0001 C CNN "Supplier URL"
-	1    20205 3285
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60A73BAF
-P 20140 4825
-F 0 "U?" H 20390 4022 50  0000 C CNN
-F 1 "TCMT4600" H 20390 3931 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 20140 4825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 20140 4825 50  0001 C CNN
-F 4 "ST" H 20140 4825 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 20140 4825 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 20140 4825 50  0001 C CNN "Supplier URL"
-	1    20140 4825
-	1    0    0    -1  
-$EndComp
 Text Label 17875 6390 0    50   ~ 0
 STRIP_LIGHT_CTRL_12V
 Wire Bus Line
@@ -1719,20 +1537,6 @@ F 4 "Vishay" H 19150 6723 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 19150 6490 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 19150 6490 50  0001 C CNN "Supplier URL"
 	1    19150 6490
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60A73BFA
-P 20165 6240
-F 0 "U?" H 20415 5437 50  0000 C CNN
-F 1 "TCMT4600" H 20415 5346 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 20165 6240 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 20165 6240 50  0001 C CNN
-F 4 "ST" H 20165 6240 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 20165 6240 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 20165 6240 50  0001 C CNN "Supplier URL"
-	1    20165 6240
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1864,20 +1668,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    2675 9185
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60D3E61E
-P 3690 8935
-F 0 "U?" H 3940 8132 50  0000 C CNN
-F 1 "TCMT4600" H 3940 8041 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3690 8935 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3690 8935 50  0001 C CNN
-F 4 "ST" H 3690 8935 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3690 8935 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3690 8935 50  0001 C CNN "Supplier URL"
-	1    3690 8935
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	5235 10245 5235 10910
 Wire Bus Line
@@ -1985,20 +1775,6 @@ F 4 "Vishay" H 2670 10713 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 2670 10480 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 2670 10480 50  0001 C CNN "Supplier URL"
 	1    2670 10480
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60D5EABB
-P 3685 10230
-F 0 "U?" H 3935 9427 50  0000 C CNN
-F 1 "TCMT4600" H 3935 9336 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3685 10230 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3685 10230 50  0001 C CNN
-F 4 "ST" H 3685 10230 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3685 10230 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3685 10230 50  0001 C CNN "Supplier URL"
-	1    3685 10230
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -2110,20 +1886,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    2615 11790
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60D79559
-P 3630 11540
-F 0 "U?" H 3880 10737 50  0000 C CNN
-F 1 "TCMT4600" H 3880 10646 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3630 11540 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3630 11540 50  0001 C CNN
-F 4 "ST" H 3630 11540 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3630 11540 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3630 11540 50  0001 C CNN "Supplier URL"
-	1    3630 11540
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	10395 9690 10395 10355
 Wire Bus Line
@@ -2233,20 +1995,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    7830 9925
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60D94023
-P 8845 9675
-F 0 "U?" H 9095 8872 50  0000 C CNN
-F 1 "TCMT4600" H 9095 8781 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 8845 9675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 8845 9675 50  0001 C CNN
-F 4 "ST" H 8845 9675 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 8845 9675 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 8845 9675 50  0001 C CNN "Supplier URL"
-	1    8845 9675
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	10395 11080 10395 11745
 Wire Bus Line
@@ -2354,20 +2102,6 @@ F 4 "Vishay" H 7830 11548 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 7830 11315 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 7830 11315 50  0001 C CNN "Supplier URL"
 	1    7830 11315
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60DB13AB
-P 8845 11065
-F 0 "U?" H 9095 10262 50  0000 C CNN
-F 1 "TCMT4600" H 9095 10171 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 8845 11065 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 8845 11065 50  0001 C CNN
-F 4 "ST" H 8845 11065 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 8845 11065 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 8845 11065 50  0001 C CNN "Supplier URL"
-	1    8845 11065
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -2489,20 +2223,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    14070 9220
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60E82714
-P 15085 8970
-F 0 "U?" H 15335 8167 50  0000 C CNN
-F 1 "TCMT4600" H 15335 8076 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 15085 8970 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 15085 8970 50  0001 C CNN
-F 4 "ST" H 15085 8970 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 15085 8970 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 15085 8970 50  0001 C CNN "Supplier URL"
-	1    15085 8970
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	16630 10280 16630 10945
 Wire Bus Line
@@ -2610,20 +2330,6 @@ F 4 "Vishay" H 14065 10748 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 14065 10515 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 14065 10515 50  0001 C CNN "Supplier URL"
 	1    14065 10515
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60E8275F
-P 15080 10265
-F 0 "U?" H 15330 9462 50  0000 C CNN
-F 1 "TCMT4600" H 15330 9371 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 15080 10265 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 15080 10265 50  0001 C CNN
-F 4 "ST" H 15080 10265 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 15080 10265 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 15080 10265 50  0001 C CNN "Supplier URL"
-	1    15080 10265
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -2735,20 +2441,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    14010 11825
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60E827AA
-P 15025 11575
-F 0 "U?" H 15275 10772 50  0000 C CNN
-F 1 "TCMT4600" H 15275 10681 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 15025 11575 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 15025 11575 50  0001 C CNN
-F 4 "ST" H 15025 11575 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 15025 11575 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 15025 11575 50  0001 C CNN "Supplier URL"
-	1    15025 11575
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	21790 10185 21790 10850
 Wire Bus Line
@@ -2854,20 +2546,6 @@ F 4 "Vishay" H 19225 10653 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 19225 10420 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 19225 10420 50  0001 C CNN "Supplier URL"
 	1    19225 10420
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60E827F5
-P 20240 10170
-F 0 "U?" H 20490 9367 50  0000 C CNN
-F 1 "TCMT4600" H 20490 9276 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 20240 10170 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 20240 10170 50  0001 C CNN
-F 4 "ST" H 20240 10170 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 20240 10170 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 20240 10170 50  0001 C CNN "Supplier URL"
-	1    20240 10170
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -2977,20 +2655,6 @@ F 4 "Vishay" H 19225 12043 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 19225 11810 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 19225 11810 50  0001 C CNN "Supplier URL"
 	1    19225 11810
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 60E82840
-P 20240 11560
-F 0 "U?" H 20490 10757 50  0000 C CNN
-F 1 "TCMT4600" H 20490 10666 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 20240 11560 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 20240 11560 50  0001 C CNN
-F 4 "ST" H 20240 11560 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 20240 11560 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 20240 11560 50  0001 C CNN "Supplier URL"
-	1    20240 11560
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -3114,20 +2778,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    2665 15430
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61250C42
-P 3680 15180
-F 0 "U?" H 3930 14377 50  0000 C CNN
-F 1 "TCMT4600" H 3930 14286 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3680 15180 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3680 15180 50  0001 C CNN
-F 4 "ST" H 3680 15180 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3680 15180 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3680 15180 50  0001 C CNN "Supplier URL"
-	1    3680 15180
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	5200 17800 5200 18465
 Wire Bus Line
@@ -3235,20 +2885,6 @@ F 4 "Vishay" H 2635 18268 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 2635 18035 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 2635 18035 50  0001 C CNN "Supplier URL"
 	1    2635 18035
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61250C8D
-P 3650 17785
-F 0 "U?" H 3900 16982 50  0000 C CNN
-F 1 "TCMT4600" H 3900 16891 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3650 17785 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3650 17785 50  0001 C CNN
-F 4 "ST" H 3650 17785 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3650 17785 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3650 17785 50  0001 C CNN "Supplier URL"
-	1    3650 17785
 	1    0    0    -1  
 $EndComp
 Text Label 1390 16620 0    50   ~ 0
@@ -3360,20 +2996,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    2665 16720
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 612FCF3D
-P 3680 16470
-F 0 "U?" H 3930 15667 50  0000 C CNN
-F 1 "TCMT4600" H 3930 15576 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3680 16470 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3680 16470 50  0001 C CNN
-F 4 "ST" H 3680 16470 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3680 16470 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3680 16470 50  0001 C CNN "Supplier URL"
-	1    3680 16470
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	5200 19010 5200 19675
 Wire Bus Line
@@ -3481,20 +3103,6 @@ F 4 "Vishay" H 2635 19478 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 2635 19245 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 2635 19245 50  0001 C CNN "Supplier URL"
 	1    2635 19245
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61403377
-P 3650 18995
-F 0 "U?" H 3900 18192 50  0000 C CNN
-F 1 "TCMT4600" H 3900 18101 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3650 18995 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 3650 18995 50  0001 C CNN
-F 4 "ST" H 3650 18995 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 3650 18995 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 3650 18995 50  0001 C CNN "Supplier URL"
-	1    3650 18995
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -3606,20 +3214,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    7815 17440
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 6145E15B
-P 8830 17190
-F 0 "U?" H 9080 16387 50  0000 C CNN
-F 1 "TCMT4600" H 9080 16296 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 8830 17190 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 8830 17190 50  0001 C CNN
-F 4 "ST" H 8830 17190 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 8830 17190 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 8830 17190 50  0001 C CNN "Supplier URL"
-	1    8830 17190
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	10380 18415 10380 19080
 Wire Bus Line
@@ -3727,20 +3321,6 @@ F 4 "Vishay" H 7815 18883 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 7815 18650 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 7815 18650 50  0001 C CNN "Supplier URL"
 	1    7815 18650
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 6145E1A6
-P 8830 18400
-F 0 "U?" H 9080 17597 50  0000 C CNN
-F 1 "TCMT4600" H 9080 17506 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 8830 18400 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 8830 18400 50  0001 C CNN
-F 4 "ST" H 8830 18400 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 8830 18400 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 8830 18400 50  0001 C CNN "Supplier URL"
-	1    8830 18400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -3862,20 +3442,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    13545 14975
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 619A6E2F
-P 14560 14725
-F 0 "U?" H 14810 13922 50  0000 C CNN
-F 1 "TCMT4600" H 14810 13831 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14560 14725 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 14560 14725 50  0001 C CNN
-F 4 "ST" H 14560 14725 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 14560 14725 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 14560 14725 50  0001 C CNN "Supplier URL"
-	1    14560 14725
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	16105 16035 16105 16700
 Wire Bus Line
@@ -3983,20 +3549,6 @@ F 4 "Vishay" H 13540 16503 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 13540 16270 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 13540 16270 50  0001 C CNN "Supplier URL"
 	1    13540 16270
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 619A6E7A
-P 14555 16020
-F 0 "U?" H 14805 15217 50  0000 C CNN
-F 1 "TCMT4600" H 14805 15126 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14555 16020 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 14555 16020 50  0001 C CNN
-F 4 "ST" H 14555 16020 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 14555 16020 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 14555 16020 50  0001 C CNN "Supplier URL"
-	1    14555 16020
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -4108,20 +3660,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    13485 17580
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 619A6EC5
-P 14500 17330
-F 0 "U?" H 14750 16527 50  0000 C CNN
-F 1 "TCMT4600" H 14750 16436 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14500 17330 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 14500 17330 50  0001 C CNN
-F 4 "ST" H 14500 17330 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 14500 17330 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 14500 17330 50  0001 C CNN "Supplier URL"
-	1    14500 17330
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	16200 18785 16200 19450
 Wire Bus Line
@@ -4229,20 +3767,6 @@ F 4 "Vishay" H 13635 19253 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 13635 19020 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 13635 19020 50  0001 C CNN "Supplier URL"
 	1    13635 19020
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 619A6F10
-P 14650 18770
-F 0 "U?" H 14900 17967 50  0000 C CNN
-F 1 "TCMT4600" H 14900 17876 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14650 18770 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 14650 18770 50  0001 C CNN
-F 4 "ST" H 14650 18770 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 14650 18770 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 14650 18770 50  0001 C CNN "Supplier URL"
-	1    14650 18770
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -4354,20 +3878,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    13635 20410
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 619A6F5B
-P 14650 20160
-F 0 "U?" H 14900 19357 50  0000 C CNN
-F 1 "TCMT4600" H 14900 19266 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14650 20160 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 14650 20160 50  0001 C CNN
-F 4 "ST" H 14650 20160 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 14650 20160 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 14650 20160 50  0001 C CNN "Supplier URL"
-	1    14650 20160
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	21165 14640 21165 15305
 Wire Bus Line
@@ -4475,20 +3985,6 @@ F 4 "Vishay" H 18600 15108 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 18600 14875 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 18600 14875 50  0001 C CNN "Supplier URL"
 	1    18600 14875
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61B48E3C
-P 19615 14625
-F 0 "U?" H 19865 13822 50  0000 C CNN
-F 1 "TCMT4600" H 19865 13731 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 19615 14625 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 19615 14625 50  0001 C CNN
-F 4 "ST" H 19615 14625 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 19615 14625 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 19615 14625 50  0001 C CNN "Supplier URL"
-	1    19615 14625
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -4600,20 +4096,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    24090 19040
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61B48E87
-P 25105 18790
-F 0 "U?" H 25355 17987 50  0000 C CNN
-F 1 "TCMT4600" H 25355 17896 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 25105 18790 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 25105 18790 50  0001 C CNN
-F 4 "ST" H 25105 18790 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 25105 18790 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 25105 18790 50  0001 C CNN "Supplier URL"
-	1    25105 18790
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	26600 20115 26600 20780
 Wire Bus Line
@@ -4721,20 +4203,6 @@ F 4 "Vishay" H 24035 20583 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 24035 20350 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 24035 20350 50  0001 C CNN "Supplier URL"
 	1    24035 20350
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61B48ED2
-P 25050 20100
-F 0 "U?" H 25300 19297 50  0000 C CNN
-F 1 "TCMT4600" H 25300 19206 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 25050 20100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 25050 20100 50  0001 C CNN
-F 4 "ST" H 25050 20100 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 25050 20100 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 25050 20100 50  0001 C CNN "Supplier URL"
-	1    25050 20100
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -4846,20 +4314,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    18595 20275
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61B48F1D
-P 19610 20025
-F 0 "U?" H 19860 19222 50  0000 C CNN
-F 1 "TCMT4600" H 19860 19131 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 19610 20025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 19610 20025 50  0001 C CNN
-F 4 "ST" H 19610 20025 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 19610 20025 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 19610 20025 50  0001 C CNN "Supplier URL"
-	1    19610 20025
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	26570 14760 26570 15425
 Wire Bus Line
@@ -4967,20 +4421,6 @@ F 4 "Vishay" H 24005 15228 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 24005 14995 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 24005 14995 50  0001 C CNN "Supplier URL"
 	1    24005 14995
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61B48F68
-P 25020 14745
-F 0 "U?" H 25270 13942 50  0000 C CNN
-F 1 "TCMT4600" H 25270 13851 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 25020 14745 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 25020 14745 50  0001 C CNN
-F 4 "ST" H 25020 14745 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 25020 14745 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 25020 14745 50  0001 C CNN "Supplier URL"
-	1    25020 14745
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -5092,20 +4532,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    23975 16410
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61BEB994
-P 24990 16160
-F 0 "U?" H 25240 15357 50  0000 C CNN
-F 1 "TCMT4600" H 25240 15266 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 24990 16160 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 24990 16160 50  0001 C CNN
-F 4 "ST" H 24990 16160 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 24990 16160 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 24990 16160 50  0001 C CNN "Supplier URL"
-	1    24990 16160
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	26535 17470 26535 18135
 Wire Bus Line
@@ -5213,20 +4639,6 @@ F 4 "Vishay" H 23970 17938 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 23970 17705 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 23970 17705 50  0001 C CNN "Supplier URL"
 	1    23970 17705
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61BEB9DF
-P 24985 17455
-F 0 "U?" H 25235 16652 50  0000 C CNN
-F 1 "TCMT4600" H 25235 16561 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 24985 17455 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 24985 17455 50  0001 C CNN
-F 4 "ST" H 24985 17455 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 24985 17455 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 24985 17455 50  0001 C CNN "Supplier URL"
-	1    24985 17455
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -5338,20 +4750,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    28710 16265
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61BEBA2A
-P 29725 16015
-F 0 "U?" H 29975 15212 50  0000 C CNN
-F 1 "TCMT4600" H 29975 15121 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 29725 16015 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 29725 16015 50  0001 C CNN
-F 4 "ST" H 29725 16015 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 29725 16015 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 29725 16015 50  0001 C CNN "Supplier URL"
-	1    29725 16015
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	31305 14770 31305 15435
 Wire Bus Line
@@ -5461,20 +4859,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    28740 15005
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61BEBAC0
-P 29755 14755
-F 0 "U?" H 30005 13952 50  0000 C CNN
-F 1 "TCMT4600" H 30005 13861 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 29755 14755 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 29755 14755 50  0001 C CNN
-F 4 "ST" H 29755 14755 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 29755 14755 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 29755 14755 50  0001 C CNN "Supplier URL"
-	1    29755 14755
-	1    0    0    -1  
-$EndComp
 Text Label 27440 17525 0    50   ~ 0
 PACK_POWER_CTRL_12V
 Wire Bus Line
@@ -5582,20 +4966,6 @@ F 4 "Vishay" H 28715 17858 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 28715 17625 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 28715 17625 50  0001 C CNN "Supplier URL"
 	1    28715 17625
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61DC9994
-P 29730 17375
-F 0 "U?" H 29980 16572 50  0000 C CNN
-F 1 "TCMT4600" H 29980 16481 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 29730 17375 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 29730 17375 50  0001 C CNN
-F 4 "ST" H 29730 17375 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 29730 17375 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 29730 17375 50  0001 C CNN "Supplier URL"
-	1    29730 17375
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
@@ -5816,34 +5186,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    28645 20475
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61FCBD26
-P 29725 18685
-F 0 "U?" H 29975 17882 50  0000 C CNN
-F 1 "TCMT4600" H 29975 17791 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 29725 18685 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 29725 18685 50  0001 C CNN
-F 4 "ST" H 29725 18685 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 29725 18685 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 29725 18685 50  0001 C CNN "Supplier URL"
-	1    29725 18685
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 61FCBD2F
-P 29660 20225
-F 0 "U?" H 29910 19422 50  0000 C CNN
-F 1 "TCMT4600" H 29910 19331 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 29660 20225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 29660 20225 50  0001 C CNN
-F 4 "ST" H 29660 20225 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 29660 20225 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 29660 20225 50  0001 C CNN "Supplier URL"
-	1    29660 20225
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	11995 14065 11995 21360
 Wire Notes Line
@@ -5969,20 +5311,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    18585 16065
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 63063609
-P 19600 15815
-F 0 "U?" H 19850 15012 50  0000 C CNN
-F 1 "TCMT4600" H 19850 14921 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 19600 15815 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 19600 15815 50  0001 C CNN
-F 4 "ST" H 19600 15815 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 19600 15815 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 19600 15815 50  0001 C CNN "Supplier URL"
-	1    19600 15815
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	21180 17160 21180 17825
 Wire Bus Line
@@ -6092,20 +5420,6 @@ F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divisi
 	1    18615 17395
 	1    0    0    -1  
 $EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 63501A2C
-P 19630 17145
-F 0 "U?" H 19880 16342 50  0000 C CNN
-F 1 "TCMT4600" H 19880 16251 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 19630 17145 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 19630 17145 50  0001 C CNN
-F 4 "ST" H 19630 17145 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 19630 17145 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 19630 17145 50  0001 C CNN "Supplier URL"
-	1    19630 17145
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	21125 18470 21125 19135
 Wire Bus Line
@@ -6213,20 +5527,6 @@ F 4 "Vishay" H 18560 18938 50  0001 C CNN "MFN"
 F 5 "TCMT4600" H 18560 18705 50  0001 C CNN "MFP"
 F 6 "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TCMT4600T0/4074845" H 18560 18705 50  0001 C CNN "Supplier URL"
 	1    18560 18705
-	1    0    0    -1  
-$EndComp
-$Comp
-L switchboard:VN750 U?
-U 1 1 63501A77
-P 19575 18455
-F 0 "U?" H 19825 17652 50  0000 C CNN
-F 1 "TCMT4600" H 19825 17561 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 19575 18455 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 19575 18455 50  0001 C CNN
-F 4 "ST" H 19575 18455 50  0001 C CNN "MFN"
-F 5 "VN750B5TR-E" H 19575 18455 50  0001 C CNN "MFP"
-F 6 "https://www.digikey.com/en/products/detail/stmicroelectronics/VN750B5TR-E/1852718" H 19575 18455 50  0001 C CNN "Supplier URL"
-	1    19575 18455
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6777,6 +6077,556 @@ F 1 "+5V_truck" H 3025 15458 50  0000 C CNN
 F 2 "" H 3010 15285 50  0001 C CNN
 F 3 "" H 3010 15285 50  0001 C CNN
 	1    3010 15285
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60AF5D27
+P 3695 1825
+F 0 "U?" H 3945 1022 50  0000 C CNN
+F 1 "VN750" H 3945 931 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3695 1825 50  0001 C CNN
+F 3 "" H 3695 1825 50  0001 C CNN
+	1    3695 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60B02383
+P 3630 3365
+F 0 "U?" H 3880 2562 50  0000 C CNN
+F 1 "VN750" H 3880 2471 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3630 3365 50  0001 C CNN
+F 3 "" H 3630 3365 50  0001 C CNN
+	1    3630 3365
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60B9FE8C
+P 3625 4710
+F 0 "U?" H 3875 3907 50  0000 C CNN
+F 1 "VN750" H 3875 3816 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3625 4710 50  0001 C CNN
+F 3 "" H 3625 4710 50  0001 C CNN
+	1    3625 4710
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60C3E1A3
+P 3560 6250
+F 0 "U?" H 3810 5447 50  0000 C CNN
+F 1 "VN750" H 3810 5356 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3560 6250 50  0001 C CNN
+F 3 "" H 3560 6250 50  0001 C CNN
+	1    3560 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60CDDCA8
+P 8920 5205
+F 0 "U?" H 9170 4402 50  0000 C CNN
+F 1 "VN750" H 9170 4311 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 8920 5205 50  0001 C CNN
+F 3 "" H 8920 5205 50  0001 C CNN
+	1    8920 5205
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60E19493
+P 8985 3665
+F 0 "U?" H 9235 2862 50  0000 C CNN
+F 1 "VN750" H 9235 2771 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 8985 3665 50  0001 C CNN
+F 3 "" H 8985 3665 50  0001 C CNN
+	1    8985 3665
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60EBFECE
+P 15025 1915
+F 0 "U?" H 15275 1112 50  0000 C CNN
+F 1 "VN750" H 15275 1021 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 15025 1915 50  0001 C CNN
+F 3 "" H 15025 1915 50  0001 C CNN
+	1    15025 1915
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60F5E347
+P 14960 3455
+F 0 "U?" H 15210 2652 50  0000 C CNN
+F 1 "VN750" H 15210 2561 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 14960 3455 50  0001 C CNN
+F 3 "" H 14960 3455 50  0001 C CNN
+	1    14960 3455
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 60FFC850
+P 14985 4870
+F 0 "U?" H 15235 4067 50  0000 C CNN
+F 1 "VN750" H 15235 3976 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 14985 4870 50  0001 C CNN
+F 3 "" H 14985 4870 50  0001 C CNN
+	1    14985 4870
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6109BA93
+P 14970 6205
+F 0 "U?" H 15220 5402 50  0000 C CNN
+F 1 "VN750" H 15220 5311 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 14970 6205 50  0001 C CNN
+F 3 "" H 14970 6205 50  0001 C CNN
+	1    14970 6205
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6113E825
+P 20165 6240
+F 0 "U?" H 20415 5437 50  0000 C CNN
+F 1 "VN750" H 20415 5346 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 20165 6240 50  0001 C CNN
+F 3 "" H 20165 6240 50  0001 C CNN
+	1    20165 6240
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 611DC766
+P 20140 4825
+F 0 "U?" H 20390 4022 50  0000 C CNN
+F 1 "VN750" H 20390 3931 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 20140 4825 50  0001 C CNN
+F 3 "" H 20140 4825 50  0001 C CNN
+	1    20140 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6127AB0B
+P 20205 3285
+F 0 "U?" H 20455 2482 50  0000 C CNN
+F 1 "VN750" H 20455 2391 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 20205 3285 50  0001 C CNN
+F 3 "" H 20205 3285 50  0001 C CNN
+	1    20205 3285
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 613189F1
+P 20210 1890
+F 0 "U?" H 20460 1087 50  0000 C CNN
+F 1 "VN750" H 20460 996 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 20210 1890 50  0001 C CNN
+F 3 "" H 20210 1890 50  0001 C CNN
+	1    20210 1890
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 613E0659
+P 3690 8935
+F 0 "U?" H 3940 8132 50  0000 C CNN
+F 1 "VN750" H 3940 8041 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3690 8935 50  0001 C CNN
+F 3 "" H 3690 8935 50  0001 C CNN
+	1    3690 8935
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6147FAE7
+P 3685 10230
+F 0 "U?" H 3935 9427 50  0000 C CNN
+F 1 "VN750" H 3935 9336 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3685 10230 50  0001 C CNN
+F 3 "" H 3685 10230 50  0001 C CNN
+	1    3685 10230
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6151D34D
+P 3630 11540
+F 0 "U?" H 3880 10737 50  0000 C CNN
+F 1 "VN750" H 3880 10646 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3630 11540 50  0001 C CNN
+F 3 "" H 3630 11540 50  0001 C CNN
+	1    3630 11540
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 615BDED5
+P 8845 11065
+F 0 "U?" H 9095 10262 50  0000 C CNN
+F 1 "VN750" H 9095 10171 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 8845 11065 50  0001 C CNN
+F 3 "" H 8845 11065 50  0001 C CNN
+	1    8845 11065
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6165BB97
+P 8845 9675
+F 0 "U?" H 9095 8872 50  0000 C CNN
+F 1 "VN750" H 9095 8781 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 8845 9675 50  0001 C CNN
+F 3 "" H 8845 9675 50  0001 C CNN
+	1    8845 9675
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 616FCCA3
+P 15085 8970
+F 0 "U?" H 15335 8167 50  0000 C CNN
+F 1 "VN750" H 15335 8076 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 15085 8970 50  0001 C CNN
+F 3 "" H 15085 8970 50  0001 C CNN
+	1    15085 8970
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6179A88F
+P 15080 10265
+F 0 "U?" H 15330 9462 50  0000 C CNN
+F 1 "VN750" H 15330 9371 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 15080 10265 50  0001 C CNN
+F 3 "" H 15080 10265 50  0001 C CNN
+	1    15080 10265
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61839DB0
+P 15025 11575
+F 0 "U?" H 15275 10772 50  0000 C CNN
+F 1 "VN750" H 15275 10681 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 15025 11575 50  0001 C CNN
+F 3 "" H 15025 11575 50  0001 C CNN
+	1    15025 11575
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 618E37DD
+P 20240 11560
+F 0 "U?" H 20490 10757 50  0000 C CNN
+F 1 "VN750" H 20490 10666 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 20240 11560 50  0001 C CNN
+F 3 "" H 20240 11560 50  0001 C CNN
+	1    20240 11560
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61987511
+P 20240 10170
+F 0 "U?" H 20490 9367 50  0000 C CNN
+F 1 "VN750" H 20490 9276 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 20240 10170 50  0001 C CNN
+F 3 "" H 20240 10170 50  0001 C CNN
+	1    20240 10170
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61A425A1
+P 3680 15180
+F 0 "U?" H 3930 14377 50  0000 C CNN
+F 1 "VN750" H 3930 14286 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3680 15180 50  0001 C CNN
+F 3 "" H 3680 15180 50  0001 C CNN
+	1    3680 15180
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61AE01D6
+P 3680 16470
+F 0 "U?" H 3930 15667 50  0000 C CNN
+F 1 "VN750" H 3930 15576 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3680 16470 50  0001 C CNN
+F 3 "" H 3680 16470 50  0001 C CNN
+	1    3680 16470
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61B7E686
+P 3650 17785
+F 0 "U?" H 3900 16982 50  0000 C CNN
+F 1 "VN750" H 3900 16891 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3650 17785 50  0001 C CNN
+F 3 "" H 3650 17785 50  0001 C CNN
+	1    3650 17785
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61C1BC90
+P 3650 18995
+F 0 "U?" H 3900 18192 50  0000 C CNN
+F 1 "VN750" H 3900 18101 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 3650 18995 50  0001 C CNN
+F 3 "" H 3650 18995 50  0001 C CNN
+	1    3650 18995
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61CBC8B8
+P 8830 17190
+F 0 "U?" H 9080 16387 50  0000 C CNN
+F 1 "VN750" H 9080 16296 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 8830 17190 50  0001 C CNN
+F 3 "" H 8830 17190 50  0001 C CNN
+	1    8830 17190
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61D5BE89
+P 8830 18400
+F 0 "U?" H 9080 17597 50  0000 C CNN
+F 1 "VN750" H 9080 17506 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 8830 18400 50  0001 C CNN
+F 3 "" H 8830 18400 50  0001 C CNN
+	1    8830 18400
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61E08A8D
+P 14560 14725
+F 0 "U?" H 14810 13922 50  0000 C CNN
+F 1 "VN750" H 14810 13831 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 14560 14725 50  0001 C CNN
+F 3 "" H 14560 14725 50  0001 C CNN
+	1    14560 14725
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61EA86CB
+P 14555 16020
+F 0 "U?" H 14805 15217 50  0000 C CNN
+F 1 "VN750" H 14805 15126 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 14555 16020 50  0001 C CNN
+F 3 "" H 14555 16020 50  0001 C CNN
+	1    14555 16020
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61F46A67
+P 14500 17330
+F 0 "U?" H 14750 16527 50  0000 C CNN
+F 1 "VN750" H 14750 16436 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 14500 17330 50  0001 C CNN
+F 3 "" H 14500 17330 50  0001 C CNN
+	1    14500 17330
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 61FE6250
+P 14650 18770
+F 0 "U?" H 14900 17967 50  0000 C CNN
+F 1 "VN750" H 14900 17876 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 14650 18770 50  0001 C CNN
+F 3 "" H 14650 18770 50  0001 C CNN
+	1    14650 18770
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 620847C8
+P 14650 20160
+F 0 "U?" H 14900 19357 50  0000 C CNN
+F 1 "VN750" H 14900 19266 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 14650 20160 50  0001 C CNN
+F 3 "" H 14650 20160 50  0001 C CNN
+	1    14650 20160
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6212C409
+P 19615 14625
+F 0 "U?" H 19865 13822 50  0000 C CNN
+F 1 "VN750" H 19865 13731 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 19615 14625 50  0001 C CNN
+F 3 "" H 19615 14625 50  0001 C CNN
+	1    19615 14625
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 621CD168
+P 19600 15815
+F 0 "U?" H 19850 15012 50  0000 C CNN
+F 1 "VN750" H 19850 14921 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 19600 15815 50  0001 C CNN
+F 3 "" H 19600 15815 50  0001 C CNN
+	1    19600 15815
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6226E508
+P 19630 17145
+F 0 "U?" H 19880 16342 50  0000 C CNN
+F 1 "VN750" H 19880 16251 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 19630 17145 50  0001 C CNN
+F 3 "" H 19630 17145 50  0001 C CNN
+	1    19630 17145
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 62314FFD
+P 19575 18455
+F 0 "U?" H 19825 17652 50  0000 C CNN
+F 1 "VN750" H 19825 17561 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 19575 18455 50  0001 C CNN
+F 3 "" H 19575 18455 50  0001 C CNN
+	1    19575 18455
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 623B8338
+P 19610 20025
+F 0 "U?" H 19860 19222 50  0000 C CNN
+F 1 "VN750" H 19860 19131 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 19610 20025 50  0001 C CNN
+F 3 "" H 19610 20025 50  0001 C CNN
+	1    19610 20025
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6245ABE2
+P 25050 20100
+F 0 "U?" H 25300 19297 50  0000 C CNN
+F 1 "VN750" H 25300 19206 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 25050 20100 50  0001 C CNN
+F 3 "" H 25050 20100 50  0001 C CNN
+	1    25050 20100
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6250019C
+P 25105 18790
+F 0 "U?" H 25355 17987 50  0000 C CNN
+F 1 "VN750" H 25355 17896 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 25105 18790 50  0001 C CNN
+F 3 "" H 25105 18790 50  0001 C CNN
+	1    25105 18790
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 625A2492
+P 24985 17455
+F 0 "U?" H 25235 16652 50  0000 C CNN
+F 1 "VN750" H 25235 16561 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 24985 17455 50  0001 C CNN
+F 3 "" H 24985 17455 50  0001 C CNN
+	1    24985 17455
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 62643FA5
+P 24990 16160
+F 0 "U?" H 25240 15357 50  0000 C CNN
+F 1 "VN750" H 25240 15266 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 24990 16160 50  0001 C CNN
+F 3 "" H 24990 16160 50  0001 C CNN
+	1    24990 16160
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 626E4FBD
+P 25020 14745
+F 0 "U?" H 25270 13942 50  0000 C CNN
+F 1 "VN750" H 25270 13851 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 25020 14745 50  0001 C CNN
+F 3 "" H 25020 14745 50  0001 C CNN
+	1    25020 14745
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 627845E2
+P 29755 14755
+F 0 "U?" H 30005 13952 50  0000 C CNN
+F 1 "VN750" H 30005 13861 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 29755 14755 50  0001 C CNN
+F 3 "" H 29755 14755 50  0001 C CNN
+	1    29755 14755
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 62822546
+P 29725 16015
+F 0 "U?" H 29975 15212 50  0000 C CNN
+F 1 "VN750" H 29975 15121 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 29725 16015 50  0001 C CNN
+F 3 "" H 29725 16015 50  0001 C CNN
+	1    29725 16015
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 628C0821
+P 29730 17375
+F 0 "U?" H 29980 16572 50  0000 C CNN
+F 1 "VN750" H 29980 16481 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 29730 17375 50  0001 C CNN
+F 3 "" H 29730 17375 50  0001 C CNN
+	1    29730 17375
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 6295F3AE
+P 29725 18685
+F 0 "U?" H 29975 17882 50  0000 C CNN
+F 1 "VN750" H 29975 17791 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 29725 18685 50  0001 C CNN
+F 3 "" H 29725 18685 50  0001 C CNN
+	1    29725 18685
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:VN750 U?
+U 1 1 629FD5E8
+P 29660 20225
+F 0 "U?" H 29910 19422 50  0000 C CNN
+F 1 "VN750" H 29910 19331 50  0000 C CNN
+F 2 "switchboard:VN750-B513TR" H 29660 20225 50  0001 C CNN
+F 3 "" H 29660 20225 50  0001 C CNN
+	1    29660 20225
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
