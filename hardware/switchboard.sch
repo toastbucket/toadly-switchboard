@@ -303,25 +303,12 @@ Wire Bus Line
 	12425 8055 11020 8055
 $Comp
 L Device:C C?
-U 1 1 60B4A4DB
-P 1115 1475
-AR Path="/605C1303/60B4A4DB" Ref="C?"  Part="1" 
-AR Path="/60B4A4DB" Ref="C?"  Part="1" 
-F 0 "C?" H 1230 1521 50  0000 L CNN
-F 1 "0.33uF" H 1230 1430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1153 1325 50  0001 C CNN
-F 3 "~" H 1115 1475 50  0001 C CNN
-	1    1115 1475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 60B4A4E1
 P 2265 1475
 AR Path="/605C1303/60B4A4E1" Ref="C?"  Part="1" 
 AR Path="/60B4A4E1" Ref="C?"  Part="1" 
 F 0 "C?" H 2380 1521 50  0000 L CNN
-F 1 "0.1uF" H 2380 1430 50  0000 L CNN
+F 1 "10uF" H 2380 1430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2303 1325 50  0001 C CNN
 F 3 "~" H 2265 1475 50  0001 C CNN
 	1    2265 1475
@@ -332,36 +319,26 @@ Wire Wire Line
 Wire Wire Line
 	1115 1255 1400 1255
 Wire Wire Line
-	1115 1625 1115 1675
-Wire Wire Line
-	1115 1675 1525 1675
-Wire Wire Line
 	2265 1675 2265 1625
-Connection ~ 1700 1675
 Wire Wire Line
 	1700 1675 2265 1675
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60B4A4EE
-P 1525 1745
+P 2265 1745
 AR Path="/605C1303/60B4A4EE" Ref="#PWR?"  Part="1" 
 AR Path="/60B4A4EE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1525 1495 50  0001 C CNN
-F 1 "GNDREF" H 1530 1572 50  0001 C CNN
-F 2 "" H 1525 1745 50  0001 C CNN
-F 3 "" H 1525 1745 50  0001 C CNN
-	1    1525 1745
+F 0 "#PWR?" H 2265 1495 50  0001 C CNN
+F 1 "GNDREF" H 2270 1572 50  0001 C CNN
+F 2 "" H 2265 1745 50  0001 C CNN
+F 3 "" H 2265 1745 50  0001 C CNN
+	1    2265 1745
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1525 1745 1525 1675
-Connection ~ 1525 1675
-Wire Wire Line
-	1525 1675 1700 1675
+	2265 1745 2265 1675
 Wire Wire Line
 	1700 1555 1700 1675
-Wire Wire Line
-	1115 1255 1115 1325
 Wire Wire Line
 	2265 1255 2265 1325
 Wire Wire Line
@@ -369,7 +346,6 @@ Wire Wire Line
 Connection ~ 2265 1255
 Wire Wire Line
 	1115 1255 1115 1220
-Connection ~ 1115 1255
 $Comp
 L switchboard:+12V_house #PWR?
 U 1 1 60B4A4FE
@@ -385,25 +361,12 @@ F 3 "" H 1115 1220 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 60B50BC1
-P 1095 2600
-AR Path="/605C1303/60B50BC1" Ref="C?"  Part="1" 
-AR Path="/60B50BC1" Ref="C?"  Part="1" 
-F 0 "C?" H 1210 2646 50  0000 L CNN
-F 1 "0.33uF" H 1210 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1133 2450 50  0001 C CNN
-F 3 "~" H 1095 2600 50  0001 C CNN
-	1    1095 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 60B50BC7
 P 2245 2600
 AR Path="/605C1303/60B50BC7" Ref="C?"  Part="1" 
 AR Path="/60B50BC7" Ref="C?"  Part="1" 
 F 0 "C?" H 2360 2646 50  0000 L CNN
-F 1 "0.1uF" H 2360 2555 50  0000 L CNN
+F 1 "10uF" H 2360 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2283 2450 50  0001 C CNN
 F 3 "~" H 2245 2600 50  0001 C CNN
 	1    2245 2600
@@ -414,36 +377,26 @@ Wire Wire Line
 Wire Wire Line
 	1095 2380 1380 2380
 Wire Wire Line
-	1095 2750 1095 2800
-Wire Wire Line
-	1095 2800 1505 2800
-Wire Wire Line
 	2245 2800 2245 2750
-Connection ~ 1680 2800
 Wire Wire Line
 	1680 2800 2245 2800
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60B50BD4
-P 1505 2870
+P 2245 2870
 AR Path="/605C1303/60B50BD4" Ref="#PWR?"  Part="1" 
 AR Path="/60B50BD4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1505 2620 50  0001 C CNN
-F 1 "GNDREF" H 1510 2697 50  0001 C CNN
-F 2 "" H 1505 2870 50  0001 C CNN
-F 3 "" H 1505 2870 50  0001 C CNN
-	1    1505 2870
+F 0 "#PWR?" H 2245 2620 50  0001 C CNN
+F 1 "GNDREF" H 2250 2697 50  0001 C CNN
+F 2 "" H 2245 2870 50  0001 C CNN
+F 3 "" H 2245 2870 50  0001 C CNN
+	1    2245 2870
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1505 2870 1505 2800
-Connection ~ 1505 2800
-Wire Wire Line
-	1505 2800 1680 2800
+	2245 2870 2245 2800
 Wire Wire Line
 	1680 2680 1680 2800
-Wire Wire Line
-	1095 2380 1095 2450
 Wire Wire Line
 	2245 2380 2245 2450
 Wire Wire Line
@@ -451,7 +404,6 @@ Wire Wire Line
 Connection ~ 2245 2380
 Wire Wire Line
 	1095 2380 1095 2345
-Connection ~ 1095 2380
 $Comp
 L switchboard:+5V_house #PWR?
 U 1 1 60B528AD
@@ -507,4 +459,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    1680 2380
 	1    0    0    -1  
 $EndComp
+Connection ~ 2245 2800
+Connection ~ 2265 1675
 $EndSCHEMATC
