@@ -302,19 +302,6 @@ Wire Bus Line
 Wire Bus Line
 	12425 8055 11020 8055
 $Comp
-L Regulator_Linear:L7805 U?
-U 1 1 60B4A4D5
-P 1700 1255
-AR Path="/605C1303/60B4A4D5" Ref="U?"  Part="1" 
-AR Path="/60B4A4D5" Ref="U?"  Part="1" 
-F 0 "U?" H 1700 1497 50  0000 C CNN
-F 1 "TCMT4600" H 1700 1406 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 1725 1105 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 1700 1205 50  0001 C CNN
-	1    1700 1255
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 60B4A4DB
 P 1115 1475
@@ -394,19 +381,6 @@ F 1 "+12V_house" H 1130 1393 50  0000 C CNN
 F 2 "" H 1115 1220 50  0001 C CNN
 F 3 "" H 1115 1220 50  0001 C CNN
 	1    1115 1220
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:L7805 U?
-U 1 1 60B50BBB
-P 1680 2380
-AR Path="/605C1303/60B50BBB" Ref="U?"  Part="1" 
-AR Path="/60B50BBB" Ref="U?"  Part="1" 
-F 0 "U?" H 1680 2622 50  0000 C CNN
-F 1 "TCMT4600" H 1680 2531 50  0000 C CNN
-F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 1705 2230 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/83512/tcmt1600.pdf" H 1680 2330 50  0001 C CNN
-	1    1680 2380
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -511,6 +485,26 @@ F 3 "" H 1095 2345 50  0001 C CNN
 	1    1095 2345
 	1    0    0    -1  
 $EndComp
-Text Notes 2605 2445 0    50   ~ 0
-TODO: use automotive safe regulator
+$Comp
+L switchboard:MIC2940A U?
+U 1 1 60A42020
+P 1700 1255
+F 0 "U?" H 1700 1497 50  0000 C CNN
+F 1 "MIC2940A" H 1700 1406 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin4" H 1725 1105 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1700 1205 50  0001 C CNN
+	1    1700 1255
+	1    0    0    -1  
+$EndComp
+$Comp
+L switchboard:MIC2940A U?
+U 1 1 60A433DF
+P 1680 2380
+F 0 "U?" H 1680 2622 50  0000 C CNN
+F 1 "MIC2940A" H 1680 2531 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin4" H 1705 2230 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1680 2330 50  0001 C CNN
+	1    1680 2380
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
