@@ -30,4 +30,8 @@ K Voltage Regulator 1.5A Positive
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
 $ENDCMP
 #
+$CMP MIC2941A
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2940A-41A-1-25A-Low-Dropout-Regulator-DS20006000A.pdf
+$ENDCMP
+#
 #End Doc Library
